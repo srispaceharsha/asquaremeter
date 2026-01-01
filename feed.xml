@@ -5,9 +5,30 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Jan 2026 15:03:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 16:56:29 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Carpenter Ant</title>
+      <link>https://asquaremeter.com/sightings/20260101-004.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-004-a.jpg" alt="Carpenter Ant" style="max-width:100%;"></p><p><strong>Carpenter Ant</strong> (<em>Camponotus Parius</em>)</p><p>Category: Insect | Season: Winter</p><p>Such a common ant around here. Can give a nasty bite!</p><p>Weather: 28.0°C, Overcast</p>]]></description>
+      <pubDate>Thu, 01 Jan 2026 16:34:01 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260101-004.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Ground Cricket</title>
+      <link>https://asquaremeter.com/sightings/20260101-005.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-005-a.jpg" alt="Ground Cricket" style="max-width:100%;"></p><p><strong>Ground Cricket</strong> (<em>Dianemobius Fascipes</em>)</p><p>Category: Insect | Season: Winter</p><p>So hard to spot on the ground, such a good camouflage.</p><p>Weather: 28.0°C, Overcast</p>]]></description>
+      <pubDate>Thu, 01 Jan 2026 16:31:01 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260101-005.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Ground Beetle</title>
+      <link>https://asquaremeter.com/sightings/20260101-003.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-003-a.jpg" alt="Ground Beetle" style="max-width:100%;"></p><p><strong>Ground Beetle</strong> (<em>Bembidion quadrimaculatum</em>)</p><p>Category: Insect | Season: Winter</p><p>Moves quite fast, not sure if it can fly.</p><p>Weather: 28.0°C, Overcast</p>]]></description>
+      <pubDate>Thu, 01 Jan 2026 16:25:33 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260101-003.html</guid>
+    </item>
     <item>
       <title>Sighting: Tropical Fire Ant</title>
       <link>https://asquaremeter.com/sightings/20260101-002.html</link>
@@ -21,6 +42,18 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-001-a.jpg" alt="Dusty Surface Beetle" style="max-width:100%;"></p><p><strong>Dusty Surface Beetle</strong> (<em>Gonocephalum adpressiforme</em>)</p><p>Category: Insect | Season: Winter</p><p>Hides under the shades of leaves.</p><p>Weather: 27.9°C, Overcast</p>]]></description>
       <pubDate>Thu, 01 Jan 2026 15:02:40 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260101-001.html</guid>
+    </item>
+    <item>
+      <title>Day one!</title>
+      <link>https://asquaremeter.com/posts/01012026.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-005-a.jpg" alt="Day one!" style="max-width:100%;"></p><p>So it begins.</p>
+<p>Hello world!</p>
+<p>Welcome to <code>a square meter</code> project, here we like bugs. Find more about the project in the <code>about</code> section.</p>
+<p>Today, I set up the fence posts on 4 corners of <code>the patch</code>, cleaned up the space a bit, placed an old wood piece in it. That is it. No more fiddling with <code>the patch</code> for the rest of the year. </p>
+<p>My first immediate dilemma is this:</p>
+<p>If I spot a bug within the square meter but it moves out of the boundary before I can get a photo, should I still take the picture and count it as a sighting, or should I let it go?</p>]]></description>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://asquaremeter.com/posts/01012026.html</guid>
     </item>
   </channel>
 </rss>
