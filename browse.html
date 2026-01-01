@@ -58,6 +58,21 @@
             
         </select>
 
+        <select id="filter-time">
+            <option value="">All Times</option>
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+            <option value="night">Night</option>
+        </select>
+
+        <select id="filter-tag">
+            <option value="">All Tags</option>
+            
+            
+            
+        </select>
+
         <span class="filter-count"><span id="visible-count">0</span> sightings</span>
     </div>
 
@@ -70,18 +85,25 @@
 (function() {
     const categoryFilter = document.getElementById('filter-category');
     const seasonFilter = document.getElementById('filter-season');
+    const timeFilter = document.getElementById('filter-time');
+    const tagFilter = document.getElementById('filter-tag');
     const visibleCount = document.getElementById('visible-count');
     const cards = document.querySelectorAll('.sighting-card');
 
     function filterSightings() {
         const category = categoryFilter.value;
         const season = seasonFilter.value;
+        const time = timeFilter.value;
+        const tag = tagFilter.value;
         let count = 0;
 
         cards.forEach(card => {
             const matchCategory = !category || card.dataset.category === category;
             const matchSeason = !season || card.dataset.season === season;
-            const visible = matchCategory && matchSeason;
+            const matchTime = !time || card.dataset.time === time;
+            const cardTags = card.dataset.tags ? card.dataset.tags.split(',') : [];
+            const matchTag = !tag || cardTags.includes(tag);
+            const visible = matchCategory && matchSeason && matchTime && matchTag;
             card.style.display = visible ? '' : 'none';
             if (visible) count++;
         });
@@ -91,6 +113,8 @@
 
     categoryFilter.addEventListener('change', filterSightings);
     seasonFilter.addEventListener('change', filterSightings);
+    timeFilter.addEventListener('change', filterSightings);
+    tagFilter.addEventListener('change', filterSightings);
 })();
 </script>
 
