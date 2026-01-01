@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Sightings - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity study of 1m² in rural India.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav">
+                <a href="/about.html">About</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/feed.xml" class="rss-link" title="RSS Feed">RSS</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        
+<div class="container">
+    <h1>Browse Sightings</h1>
+
+    <div class="filters">
+        <select id="filter-category">
+            <option value="">All Categories</option>
+            
+            <option value="insect">Insect</option>
+            
+            <option value="arachnid">Arachnid</option>
+            
+            <option value="plant">Plant</option>
+            
+            <option value="fungus">Fungus</option>
+            
+            <option value="mollusk">Mollusk</option>
+            
+            <option value="other">Other</option>
+            
+        </select>
+
+        <select id="filter-season">
+            <option value="">All Seasons</option>
+            
+            <option value="winter">Winter</option>
+            
+            <option value="summer">Summer</option>
+            
+            <option value="monsoon">Monsoon</option>
+            
+            <option value="post-monsoon">Post-Monsoon</option>
+            
+        </select>
+
+        <span class="filter-count"><span id="visible-count">0</span> sightings</span>
+    </div>
+
+    
+    <p class="no-data">No sightings yet. Check back soon!</p>
+    
+</div>
+
+<script>
+(function() {
+    const categoryFilter = document.getElementById('filter-category');
+    const seasonFilter = document.getElementById('filter-season');
+    const visibleCount = document.getElementById('visible-count');
+    const cards = document.querySelectorAll('.sighting-card');
+
+    function filterSightings() {
+        const category = categoryFilter.value;
+        const season = seasonFilter.value;
+        let count = 0;
+
+        cards.forEach(card => {
+            const matchCategory = !category || card.dataset.category === category;
+            const matchSeason = !season || card.dataset.season === season;
+            const visible = matchCategory && matchSeason;
+            card.style.display = visible ? '' : 'none';
+            if (visible) count++;
+        });
+
+        visibleCount.textContent = count;
+    }
+
+    categoryFilter.addEventListener('change', filterSightings);
+    seasonFilter.addEventListener('change', filterSightings);
+})();
+</script>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>One Square Meter by Sri</p>
+            <p>0 sightings documented</p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+    </footer>
+</body>
+</html>
