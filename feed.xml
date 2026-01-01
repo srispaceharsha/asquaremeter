@@ -3,10 +3,24 @@
   <channel>
     <title>One Square Meter</title>
     <link>https://asquaremeter.com</link>
-    <description>A year-long biodiversity documetation of 1m² in Gundmi, India.</description>
+    <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Jan 2026 13:56:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 14:57:50 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Tropical Fire Ant</title>
+      <link>https://asquaremeter.com/sightings/20260101-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-002-a.jpg" alt="Tropical Fire Ant" style="max-width:100%;"></p><p><strong>Tropical Fire Ant</strong> (<em>Solenopsis geminata</em>)</p><p>Category: Insect | Season: Winter</p><p>Moves quite fast, hard to take good images.</p><p>Weather: 27.9°C, Overcast</p>]]></description>
+      <pubDate>Thu, 01 Jan 2026 15:09:16 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260101-002.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Dusty Surface Beetle</title>
+      <link>https://asquaremeter.com/sightings/20260101-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-001-a.jpg" alt="Dusty Surface Beetle" style="max-width:100%;"></p><p><strong>Dusty Surface Beetle</strong> (<em>Gonocephalum adpressiforme</em>)</p><p>Category: Insect | Season: Winter</p><p>Hides under the shades of leaves.</p><p>Weather: 27.9°C, Overcast</p>]]></description>
+      <pubDate>Thu, 01 Jan 2026 15:02:40 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260101-001.html</guid>
+    </item>
   </channel>
 </rss>
