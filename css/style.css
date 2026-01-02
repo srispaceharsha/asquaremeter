@@ -450,7 +450,7 @@ li {
    Sighting Detail Page
    ======================================== */
 .sighting-detail {
-    max-width: var(--content-width);
+    max-width: 1200px;
 }
 
 .sighting-header {
@@ -490,8 +490,8 @@ li {
 
 .sighting-meta {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -592,8 +592,8 @@ li {
 }
 
 .lightbox-image {
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 98vw;
+    max-height: 98vh;
     object-fit: contain;
 }
 
@@ -793,7 +793,7 @@ li {
     }
 
     .sighting-meta {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .post-item a {
