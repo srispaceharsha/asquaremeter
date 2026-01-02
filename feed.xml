@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 10:01:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 11:30:10 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Rust fly</title>
+      <link>https://asquaremeter.com/sightings/20260102-006.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260102-006-a.jpg" alt="Rust fly" style="max-width:100%;"></p><p><strong>Rust fly</strong> (<em>Psilidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>very tiny bug, I am not sure of the specific species yet.</p><p>Weather: 27.7°C, Overcast</p>]]></description>
+      <pubDate>Fri, 02 Jan 2026 11:11:54 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260102-006.html</guid>
+    </item>
     <item>
       <title>Sighting: Lynx Spider</title>
       <link>https://asquaremeter.com/sightings/20260102-005.html</link>
