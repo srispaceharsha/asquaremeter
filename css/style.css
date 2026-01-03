@@ -567,8 +567,36 @@ li {
 .sighting-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 1.5rem;
     border-top: 1px solid var(--color-border);
+    gap: 1rem;
+}
+
+.sighting-nav .nav-prev,
+.sighting-nav .nav-next {
+    flex: 1;
+    min-width: 0;
+}
+
+.sighting-nav .nav-prev {
+    text-align: left;
+}
+
+.sighting-nav .nav-next {
+    text-align: right;
+}
+
+.sighting-nav .nav-center {
+    flex-shrink: 0;
+}
+
+.sighting-nav a {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* ========================================

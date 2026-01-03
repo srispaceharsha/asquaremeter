@@ -133,7 +133,19 @@
         
 
         <nav class="sighting-nav">
-            <a href="/browse.html">&larr; Back to Browse</a>
+            <div class="nav-prev">
+                
+                <a href="/sightings/20260103-003.html" id="nav-prev">&larr; Fruit flies</a>
+                
+            </div>
+            <div class="nav-center">
+                <a href="/browse.html">Browse All</a>
+            </div>
+            <div class="nav-next">
+                
+                <a href="/sightings/20260103-002.html" id="nav-next">Flower Moth &rarr;</a>
+                
+            </div>
         </nav>
     </article>
 </div>
@@ -170,6 +182,18 @@
         if (e.key === 'Escape') closeLightbox();
     });
 })();
+
+// Keyboard navigation for prev/next sighting
+document.addEventListener('keydown', (e) => {
+    if (document.getElementById('lightbox')?.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft') {
+        const prev = document.getElementById('nav-prev');
+        if (prev) prev.click();
+    } else if (e.key === 'ArrowRight') {
+        const next = document.getElementById('nav-next');
+        if (next) next.click();
+    }
+});
 </script>
 
     </main>
