@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 12:51:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 17:35:52 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Thrips</title>
+      <link>https://asquaremeter.com/sightings/20260104-006.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260104-006-a.jpg" alt="Thrips" style="max-width:100%;"></p><p><strong>Thrips</strong></p><p>Category: Insect | Season: Winter</p><p>Very small. No idea what species it is. Casually took the photo of the flower, and was surpised to see the life moving on it!</p><p>Weather: 29.3°C, Partly cloudy</p>]]></description>
+      <pubDate>Sun, 04 Jan 2026 16:59:41 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260104-006.html</guid>
+    </item>
     <item>
       <title>Sighting: Leafhopper</title>
       <link>https://asquaremeter.com/sightings/20260104-004.html</link>
@@ -154,13 +161,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260102-006-a.jpg" alt="Rust Fly" style="max-width:100%;"></p><p><strong>Rust Fly</strong> (<em>Psilidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>very tiny bug, I am not sure of the specific species yet.</p><p>Weather: 27.6°C, Overcast</p>]]></description>
       <pubDate>Fri, 02 Jan 2026 11:11:54 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260102-006.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Lynx Spider</title>
-      <link>https://asquaremeter.com/sightings/20260102-005.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260102-005-a.jpg" alt="Lynx Spider" style="max-width:100%;"></p><p><strong>Lynx Spider</strong> (<em>Oxyopes sertatus</em>)</p><p>Category: Arachnid | Season: Winter</p><p>My first spider in the patch!</p><p>Weather: 27.6°C, Overcast</p>]]></description>
-      <pubDate>Fri, 02 Jan 2026 10:19:23 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260102-005.html</guid>
     </item>
     <item>
       <title>Day one!</title>
