@@ -5,7 +5,7 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 10:52:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 12:01:43 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
@@ -32,7 +32,7 @@
     <item>
       <title>Sighting: Flea Beetle</title>
       <link>https://asquaremeter.com/sightings/20260104-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260104-001-a.jpg" alt="Flea Beetle" style="max-width:100%;"></p><p><strong>Flea Beetle</strong> (<em>Chaetocnema sp</em>)</p><p>Category: Insect | Season: Winter</p><p>Tiny, but very shiny. ~ 1.5 mm in length.</p><p>Weather: 29.4°C, Partly cloudy</p>]]></description>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260104-001-a.jpg" alt="Flea Beetle" style="max-width:100%;"></p><p><strong>Flea Beetle</strong> (<em>Chaetocnema sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Tiny, but very shiny. ~ 1.5 mm in length.</p><p>Weather: 29.4°C, Partly cloudy</p>]]></description>
       <pubDate>Sun, 04 Jan 2026 10:41:42 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260104-001.html</guid>
     </item>
@@ -42,6 +42,20 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260104-005-a.jpg" alt="Banded Pearl" style="max-width:100%;"></p><p><strong>Banded Pearl</strong> (<em>Sameodes cancellalis</em>)</p><p>Category: Insect | Season: Winter</p><p>Biggest incect yet!</p><p>Weather: 29.4°C, Partly cloudy</p>]]></description>
       <pubDate>Sun, 04 Jan 2026 10:38:34 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260104-005.html</guid>
+    </item>
+    <item>
+      <title>Week 1: Not bad!</title>
+      <link>https://asquaremeter.com/posts/04012026.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post2.jpeg" alt="Week 1: Not bad!" style="max-width:100%;"></p><p>My knees hurt.</p>
+<p>Hello!</p>
+<p>So, end of the week (well, just 4 days)! 20 species found, from very tiny to slightly bigger ones!</p>
+<p>I saw 3 new hoppers that I hadn't seen before. They are tiny! </p>
+<p>So, the morning light is not enough to get good quality photos, I have to bump up ISO, which leads to very grainy images. Looks like I will spend monies on a flash. Sigh.</p>
+<p>My macro photography skills have rusted. I am hoping it will get better as the time goes on. </p>
+<p>I also discoverd a very similar project done before by Chris Helzer. <a href="https://prairieecologist.com/square-meter-photography-project/">Read about it here</a>. The photographs he has taken are very clean and precise! Now I have a benchmark to aim for!</p>
+<p>One week at a time!</p>]]></description>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://asquaremeter.com/posts/04012026.html</guid>
     </item>
     <item>
       <title>Sighting: Lynx Spider</title>
@@ -72,9 +86,9 @@
       <guid>https://asquaremeter.com/sightings/20260103-001.html</guid>
     </item>
     <item>
-      <title>Sighting: Fruit flies</title>
+      <title>Sighting: Fruit Flies</title>
       <link>https://asquaremeter.com/sightings/20260103-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260103-003-a.jpg" alt="Fruit flies" style="max-width:100%;"></p><p><strong>Fruit flies</strong> (<em>Euaresta bella</em>)</p><p>Category: Insect | Season: Winter</p><p>This one stood still enough to get a okayish record shot, but had to bump up the ISO for a faster shutter. Noisy pic.</p><p>Weather: 27.7°C, Slight rain showers</p>]]></description>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260103-003-a.jpg" alt="Fruit Flies" style="max-width:100%;"></p><p><strong>Fruit Flies</strong> (<em>Euaresta bella</em>)</p><p>Category: Insect | Season: Winter</p><p>This one stood still enough to get a okayish record shot, but had to bump up the ISO for a faster shutter. Noisy pic.</p><p>Weather: 27.7°C, Slight rain showers</p>]]></description>
       <pubDate>Sat, 03 Jan 2026 08:37:06 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260103-003.html</guid>
     </item>
@@ -135,9 +149,9 @@
       <guid>https://asquaremeter.com/sightings/20260102-010.html</guid>
     </item>
     <item>
-      <title>Sighting: Rust fly</title>
+      <title>Sighting: Rust Fly</title>
       <link>https://asquaremeter.com/sightings/20260102-006.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260102-006-a.jpg" alt="Rust fly" style="max-width:100%;"></p><p><strong>Rust fly</strong> (<em>Psilidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>very tiny bug, I am not sure of the specific species yet.</p><p>Weather: 27.6°C, Overcast</p>]]></description>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260102-006-a.jpg" alt="Rust Fly" style="max-width:100%;"></p><p><strong>Rust Fly</strong> (<em>Psilidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>very tiny bug, I am not sure of the specific species yet.</p><p>Weather: 27.6°C, Overcast</p>]]></description>
       <pubDate>Fri, 02 Jan 2026 11:11:54 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260102-006.html</guid>
     </item>
@@ -151,12 +165,10 @@
     <item>
       <title>Day one!</title>
       <link>https://asquaremeter.com/posts/01012026.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260101-005-a.jpg" alt="Day one!" style="max-width:100%;"></p><p>So it begins.</p>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post1.jpeg" alt="Day one!" style="max-width:100%;"></p><p>So it begins.</p>
 <p>Hello world!</p>
 <p>Welcome to <code>a square meter</code> project, here we like bugs. Find more about the project in the <code>about</code> section.</p>
 <p>Today, I set up the fence posts on 4 corners of <code>the patch</code>, cleaned up the space a bit, placed an old wood piece in it. That is it. No more fiddling with <code>the patch</code> for the rest of the year. </p>
-<p>Here it is!</p>
-<p><img alt="Here it is!" src="/images/the_patch.jpg" /></p>
 <p>My first immediate dilemma is this:</p>
 <p>If I spot a bug within the square meter but it moves out of the boundary before I can get a photo, should I still take the picture and count it as a sighting, or should I let it go?</p>]]></description>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
