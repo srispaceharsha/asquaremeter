@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damselfly - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity documetation of 1m² area in Gundmi, India.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav">
+                <a href="/about.html">About</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/tree.html">Tree</a>
+                <a href="/stats.html">Stats</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        
+<div class="container">
+    <article class="sighting-detail">
+        <header class="sighting-header">
+            <h1>Damselfly</h1>
+            
+            <p class="scientific-name"><em>Agriocnemis pygmaea</em></p>
+            
+        </header>
+
+        
+        <div class="sighting-images">
+            
+            <figure class="sighting-figure">
+                <img src="/images/web/20260107-003-a.jpg"
+                     alt="Damselfly"
+                     class="lightbox-trigger"
+                     data-full="/images/full/20260107-003-a.jpg">
+                
+            </figure>
+            
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <button class="lightbox-close">&times;</button>
+            <img class="lightbox-image" src="" alt="">
+        </div>
+        
+
+        <div class="sighting-meta">
+            <div class="meta-group">
+                <h3>Details</h3>
+                <dl>
+                    <dt>ID</dt>
+                    <dd>20260107-003</dd>
+
+                    <dt>Category</dt>
+                    <dd>Insect</dd>
+
+                    <dt>Season</dt>
+                    <dd>Winter</dd>
+
+                    <dt>Observed</dt>
+                    <dd>January 07, 2026</dd>
+
+                    
+                    <dt>Time of Day</dt>
+                    <dd>Morning</dd>
+                    
+                </dl>
+            </div>
+
+            
+            <div class="meta-group">
+                <h3>Tags</h3>
+                <div class="tags-list">
+                    
+                    <span class="tag">First Sighting</span>
+                    
+                    <span class="tag">Common Bugs</span>
+                    
+                    <span class="tag">Cool Bugs</span>
+                    
+                </div>
+            </div>
+            
+
+            
+            <div class="meta-group">
+                <h3>Weather</h3>
+                <dl>
+                    
+                    <dt>Temperature</dt>
+                    <dd>26.3°C - 28.4°C</dd>
+                    
+
+                    <dt>Conditions</dt>
+                    <dd>Partly cloudy</dd>
+
+                    
+                    <dt>Humidity</dt>
+                    <dd>63%</dd>
+                    
+
+                    
+
+                    
+                    <dt>Wind</dt>
+                    <dd>20 km/h (8°)</dd>
+                    
+
+                    
+                    <dt>Pressure</dt>
+                    <dd>1012 hPa</dd>
+                    
+
+                    
+
+                    
+                    <dt>UV Index</dt>
+                    <dd>7.05</dd>
+                    
+                </dl>
+            </div>
+            
+
+            
+            <div class="meta-group">
+                <h3>Celestial</h3>
+                <dl>
+                    <dt>Moon Phase</dt>
+                    <dd>Waning Gibbous (84%)</dd>
+
+                    <dt>Sunrise</dt>
+                    <dd>06:55</dd>
+
+                    <dt>Sunset</dt>
+                    <dd>18:18</dd>
+                </dl>
+            </div>
+            
+        </div>
+
+        
+        <div class="sighting-notes">
+            <h3>Notes</h3>
+            <p>Dame is here! What a beauty!</p>
+        </div>
+        
+
+        <nav class="sighting-nav">
+            <div class="nav-prev">
+                
+                <a href="/sightings/20260107-001.html" id="nav-prev">&larr; Ant-mimicking Jumping Spider</a>
+                
+            </div>
+            <div class="nav-center">
+                <a href="/browse.html">Browse All</a>
+            </div>
+            <div class="nav-next">
+                
+                <a href="/sightings/20260107-005.html" id="nav-next">Weevil &rarr;</a>
+                
+            </div>
+        </nav>
+    </article>
+</div>
+
+<script>
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    if (!lightbox) return;
+
+    const lightboxImg = lightbox.querySelector('.lightbox-image');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    const triggers = document.querySelectorAll('.lightbox-trigger');
+
+    triggers.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.dataset.full;
+            lightboxImg.alt = img.alt;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+})();
+
+// Keyboard navigation for prev/next sighting
+document.addEventListener('keydown', (e) => {
+    if (document.getElementById('lightbox')?.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft') {
+        const prev = document.getElementById('nav-prev');
+        if (prev) prev.click();
+    } else if (e.key === 'ArrowRight') {
+        const next = document.getElementById('nav-next');
+        if (next) next.click();
+    }
+});
+</script>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
+            <p>49 sightings documented</p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+    </footer>
+</body>
+</html>
