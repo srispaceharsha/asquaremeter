@@ -35,9 +35,19 @@
 
 <section class="status-banner">
     <div class="container">
-        <p>Day <strong>13</strong> of 365 — <strong>65</strong> species documented so far!</p>
+        <p>Day <strong id="days-elapsed">13</strong> of 365 — <strong>65</strong> species documented so far!</p>
     </div>
 </section>
+<script>
+(function() {
+    var start = new Date('2026-01-01T00:00:00+05:30');
+    var now = new Date();
+    var days = Math.floor((now - start) / (1000 * 60 * 60 * 24)) + 1;
+    if (days > 0 && days <= 365) {
+        document.getElementById('days-elapsed').textContent = days;
+    }
+})();
+</script>
 
 <section class="nav-cards">
     <div class="container">
