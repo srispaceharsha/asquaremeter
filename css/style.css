@@ -152,19 +152,68 @@ li {
 /* ========================================
    Footer
    ======================================== */
+
 .site-footer {
+    position: relative;
     background: var(--color-bg-alt);
     border-top: 1px solid var(--color-border);
-    padding: 2rem 0;
     margin-top: 3rem;
+
+    /* space for text + illustrations */
+    padding: 3rem 0 clamp(3rem, 12vw, 6rem);
+
     text-align: center;
     color: var(--color-text-light);
     font-size: 0.9rem;
+    overflow: hidden;
+}
+
+.site-footer .container {
+    position: relative;
+    z-index: 2; /* above illustrations */
 }
 
 .site-footer p {
     margin: 0.25rem 0;
 }
+
+/* Decorative illustrations */
+.footer-illustration {
+    position: absolute;
+    bottom: 0;
+
+    /* fluid scaling with guardrails */
+    width: clamp(260px, 53vw, 900px);
+    height: auto;
+
+    opacity: 1.0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.footer-illustration-left {
+    left: 0;
+}
+
+.footer-illustration-right {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+/* Mobile refinement */
+@media (max-width: 600px) {
+    .footer-illustration-right {
+        display: none;
+    }
+
+    .footer-illustration-left {
+        left: 50%;
+        transform: translateX(-50%);
+        width: clamp(200px, 100vw, 420px);
+    }
+}
+
+
 
 /* ========================================
    Hero Section

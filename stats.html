@@ -28,7 +28,7 @@
         
 <div class="container page-content">
     <h1>Statistics</h1>
-    <p class="stats-updated">Last updated: January 12, 2026</p>
+    <p class="stats-updated">Last updated: January 13, 2026</p>
 
     <!-- Core Counts -->
     <section class="stats-section">
@@ -39,7 +39,7 @@
                 <span class="stat-label">Unique Species</span>
             </div>
             <div class="stat-card">
-                <span class="stat-number">12</span>
+                <span class="stat-number">13</span>
                 <span class="stat-label">Days Elapsed</span>
             </div>
         </div>
@@ -395,11 +395,11 @@
                 <span class="stat-label">Days with Sightings</span>
             </div>
             <div class="stat-card">
-                <span class="stat-number">0</span>
+                <span class="stat-number">1</span>
                 <span class="stat-label">Days without Sightings</span>
             </div>
             <div class="stat-card">
-                <span class="stat-number">100%</span>
+                <span class="stat-number">92%</span>
                 <span class="stat-label">Coverage Rate</span>
             </div>
         </div>
@@ -410,10 +410,36 @@
     </main>
 
     <footer class="site-footer">
+        <img class="footer-illustration footer-illustration-left"
+             src="/images/footer/garden_bugs_1_transparent.png"
+             alt="" aria-hidden="true">
         <div class="container">
             <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
             <p><a href="/feed.xml">Subscribe via RSS</a></p>
         </div>
+        <img class="footer-illustration footer-illustration-right"
+             src="/images/footer/garden_bugs_2_transparent.png"
+             alt="" aria-hidden="true">
     </footer>
+    <script>
+    (function() {
+        var images = [
+            '/images/footer/garden_bugs_1_transparent.png',
+            '/images/footer/garden_bugs_2_transparent.png',
+            '/images/footer/garden_bugs_3_transparent.png'
+        ];
+        var leftImg = document.querySelector('.footer-illustration-left');
+        var rightImg = document.querySelector('.footer-illustration-right');
+        if (leftImg && rightImg) {
+            var leftIdx = Math.floor(Math.random() * images.length);
+            var rightIdx = Math.floor(Math.random() * images.length);
+            leftImg.src = images[leftIdx];
+            rightImg.src = images[rightIdx];
+            // Randomly flip each image
+            if (Math.random() > 0.5) leftImg.classList.add('flipped');
+            if (Math.random() > 0.5) rightImg.classList.add('flipped');
+        }
+    })();
+    </script>
 </body>
 </html>
