@@ -5,9 +5,37 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 13:39:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 18:07:24 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Orange-headed Rice Leafhopper</title>
+      <link>https://asquaremeter.com/sightings/20260116-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260116-002-a.jpg" alt="Orange-headed Rice Leafhopper" style="max-width:100%;"></p><p><strong>Orange-headed Rice Leafhopper</strong> (<em>Thaia oryzivora</em>)</p><p>Category: Insect | Season: Winter</p><p>For a tiny bug, we definitely gave a really long name.</p><p>Weather: 28.3°C, Overcast</p>]]></description>
+      <pubDate>Fri, 16 Jan 2026 16:20:04 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260116-002.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Snail-killing Fly</title>
+      <link>https://asquaremeter.com/sightings/20260116-004.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260116-004-a.jpg" alt="Snail-killing Fly" style="max-width:100%;"></p><p><strong>Snail-killing Fly</strong> (<em>Sciomyzidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>They and snails are not good friends. Infact they might be enemies.</p><p>Weather: 28.3°C, Overcast</p>]]></description>
+      <pubDate>Fri, 16 Jan 2026 16:09:52 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260116-004.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Face Fly</title>
+      <link>https://asquaremeter.com/sightings/20260116-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260116-001-a.jpg" alt="Face Fly" style="max-width:100%;"></p><p><strong>Face Fly</strong> (<em>Musca sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Looks very similar to common housefly. But the AI says it ain&apos;t. Hail the algorithms!</p><p>Weather: 28.3°C, Overcast</p>]]></description>
+      <pubDate>Fri, 16 Jan 2026 13:54:51 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260116-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Picture-winged Fly</title>
+      <link>https://asquaremeter.com/sightings/20260116-003.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260116-003-a.jpg" alt="Picture-winged Fly" style="max-width:100%;"></p><p><strong>Picture-winged Fly</strong> (<em>Tephritinae sp</em>)</p><p>Category: Insect | Season: Winter</p><p>Another type of fruitfly, that does not eat any fruits.</p><p>Weather: 28.3°C, Overcast</p>]]></description>
+      <pubDate>Fri, 16 Jan 2026 09:15:24 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260116-003.html</guid>
+    </item>
     <item>
       <title>Sighting: Shiny Jumping Spider</title>
       <link>https://asquaremeter.com/sightings/20260115-001.html</link>
@@ -133,34 +161,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260110-002-a.jpg" alt="Common Drone Fly" style="max-width:100%;"></p><p><strong>Common Drone Fly</strong> (<em>Eristalis tenax</em>)</p><p>Category: Insect | Season: Winter</p><p>It just wouldn&apos;t sit on the flower. Just kept moving up and down, nonstop.</p><p>Weather: 28.9°C, Overcast</p>]]></description>
       <pubDate>Sat, 10 Jan 2026 11:02:59 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260110-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Snout Beetle</title>
-      <link>https://asquaremeter.com/sightings/20260110-006.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260110-006-a.jpg" alt="Snout Beetle" style="max-width:100%;"></p><p><strong>Snout Beetle</strong> (<em>Curculionidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Just wouldn&apos;t step in to the sun, kept hiding under the leaves. Took a lot of moving around to take a pic.</p><p>Weather: 28.9°C, Overcast</p>]]></description>
-      <pubDate>Sat, 10 Jan 2026 10:47:08 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260110-006.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Ant-like Flower Beetle</title>
-      <link>https://asquaremeter.com/sightings/20260110-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260110-001-a.jpg" alt="Ant-like Flower Beetle" style="max-width:100%;"></p><p><strong>Ant-like Flower Beetle</strong> (<em>Anthicidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Is it an ant? Is it a beetle? Oh man.</p><p>Weather: 28.9°C, Overcast</p>]]></description>
-      <pubDate>Sat, 10 Jan 2026 09:17:47 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260110-001.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Hoverfly</title>
-      <link>https://asquaremeter.com/sightings/20260110-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260110-003-a.jpg" alt="Hoverfly" style="max-width:100%;"></p><p><strong>Hoverfly</strong> (<em>Syrphidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Just a fly.</p><p>Weather: 28.9°C, Overcast</p>]]></description>
-      <pubDate>Sat, 10 Jan 2026 09:14:56 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260110-003.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Leaf Miner Fly</title>
-      <link>https://asquaremeter.com/sightings/20260110-004.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260110-004-a.jpg" alt="Leaf Miner Fly" style="max-width:100%;"></p><p><strong>Leaf Miner Fly</strong> (<em>Liriomyza pusilla</em>)</p><p>Category: Insect | Season: Winter</p><p>Tiny, but shiny!</p><p>Weather: 28.9°C, Overcast</p>]]></description>
-      <pubDate>Sat, 10 Jan 2026 08:50:33 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260110-004.html</guid>
     </item>
     <item>
       <title>Week 1: Not bad!</title>
