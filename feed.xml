@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 15:52:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 17:22:44 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Bristle Fly</title>
+      <link>https://asquaremeter.com/sightings/20260117-007.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260117-007-a.jpg" alt="Bristle Fly" style="max-width:100%;"></p><p><strong>Bristle Fly</strong> (<em>Clausicella sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Yet another type of fly!</p><p>Weather: 28.2°C, Foggy</p>]]></description>
+      <pubDate>Sat, 17 Jan 2026 16:28:34 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260117-007.html</guid>
+    </item>
     <item>
       <title>Sighting: Braconid Wasps</title>
       <link>https://asquaremeter.com/sightings/20260117-004.html</link>
@@ -140,13 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260114-004-a.jpg" alt="Stable Fly" style="max-width:100%;"></p><p><strong>Stable Fly</strong> (<em>Stomoxys calcitrans</em>)</p><p>Category: Insect | Season: Winter</p><p>Guess what, it did stay quite stable. Did not move for a long time!</p><p>Weather: 27.9°C, Partly cloudy</p>]]></description>
       <pubDate>Wed, 14 Jan 2026 09:28:22 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260114-004.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Fruit Flies</title>
-      <link>https://asquaremeter.com/sightings/20260114-005.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260114-005-a.jpg" alt="Fruit Flies" style="max-width:100%;"></p><p><strong>Fruit Flies</strong> (<em>Tephritidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>It is their courting dance. They dance, do the tango then do little smooch!</p><p>Weather: 27.9°C, Partly cloudy</p>]]></description>
-      <pubDate>Wed, 14 Jan 2026 08:32:18 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260114-005.html</guid>
     </item>
     <item>
       <title>Week 2: Ants marching</title>
