@@ -5,9 +5,23 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jan 2026 13:42:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 14:06:41 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Striped Jumping Spider</title>
+      <link>https://asquaremeter.com/sightings/20260117-003.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260117-003-a.jpg" alt="Striped Jumping Spider" style="max-width:100%;"></p><p><strong>Striped Jumping Spider</strong> (<em>Salticidae sp.</em>)</p><p>Category: Arachnid | Season: Winter</p><p>Very curious animal!</p><p>Weather: 28.2°C, Foggy</p>]]></description>
+      <pubDate>Sat, 17 Jan 2026 10:30:00 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260117-003.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Lesser Grass Blue</title>
+      <link>https://asquaremeter.com/sightings/20260117-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260117-002-a.jpg" alt="Lesser Grass Blue" style="max-width:100%;"></p><p><strong>Lesser Grass Blue</strong> (<em>Zizina otis</em>)</p><p>Category: Insect | Season: Winter</p><p>First butterfly to spot on the patch!</p><p>Weather: 28.2°C, Foggy</p>]]></description>
+      <pubDate>Sat, 17 Jan 2026 10:17:09 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260117-002.html</guid>
+    </item>
     <item>
       <title>Sighting: Common Green Bottle Fly</title>
       <link>https://asquaremeter.com/sightings/20260117-001.html</link>
@@ -135,13 +149,6 @@
       <guid>https://asquaremeter.com/sightings/20260111-003.html</guid>
     </item>
     <item>
-      <title>Sighting: Chalcid Wasp</title>
-      <link>https://asquaremeter.com/sightings/20260111-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260111-002-a.jpg" alt="Chalcid Wasp" style="max-width:100%;"></p><p><strong>Chalcid Wasp</strong> (<em>Eurytomidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>It has some patterns on its back, should try to get a clear pic next time.</p><p>Weather: 28.2°C, Overcast</p>]]></description>
-      <pubDate>Sun, 11 Jan 2026 09:39:04 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260111-002.html</guid>
-    </item>
-    <item>
       <title>Week 2: Ants marching</title>
       <link>https://asquaremeter.com/posts/11012026.html</link>
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post3.JPG" alt="Week 2: Ants marching" style="max-width:100%;"></p><p><em>I have started talking to bugs.</em></p>
@@ -154,13 +161,6 @@
 <p>’Til next week!</p>]]></description>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://asquaremeter.com/posts/11012026.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Maize Leafhopper</title>
-      <link>https://asquaremeter.com/sightings/20260110-005.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260110-005-a.jpg" alt="Maize Leafhopper" style="max-width:100%;"></p><p><strong>Maize Leafhopper</strong> (<em>Cicadulina mbila</em>)</p><p>Category: Insect | Season: Winter</p><p>Looks like a leafhopper alright!</p><p>Weather: 28.9°C, Overcast</p>]]></description>
-      <pubDate>Sat, 10 Jan 2026 17:21:40 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260110-005.html</guid>
     </item>
     <item>
       <title>Week 1: Not bad!</title>
