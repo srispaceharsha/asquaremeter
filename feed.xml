@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Jan 2026 16:43:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 17:45:32 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Nomad Bee</title>
+      <link>https://asquaremeter.com/sightings/20260118-004.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260118-004-a.jpg" alt="Nomad Bee" style="max-width:100%;"></p><p><strong>Nomad Bee</strong> (<em>Nomada sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Cool bug. Gave me about 30 seconds to click few decent pics.</p><p>Weather: 28.4°C, Partly cloudy</p>]]></description>
+      <pubDate>Sun, 18 Jan 2026 13:38:33 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260118-004.html</guid>
+    </item>
     <item>
       <title>Sighting: Molehopper</title>
       <link>https://asquaremeter.com/sightings/20260118-003.html</link>
@@ -140,13 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260114-006-a.jpg" alt="Grass Fly" style="max-width:100%;"></p><p><strong>Grass Fly</strong> (<em>Chloropidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>About 3 mm. Light was fading quite fast, I couldn&apos;t get better pics.</p><p>Weather: 27.9°C, Partly cloudy</p>]]></description>
       <pubDate>Wed, 14 Jan 2026 16:50:12 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260114-006.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Hoverfly</title>
-      <link>https://asquaremeter.com/sightings/20260114-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260114-003-a.jpg" alt="Hoverfly" style="max-width:100%;"></p><p><strong>Hoverfly</strong> (<em>Syrphidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Haha, I get it now! It can hover at a fixed point really well.</p><p>Weather: 27.9°C, Partly cloudy</p>]]></description>
-      <pubDate>Wed, 14 Jan 2026 15:40:17 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260114-003.html</guid>
     </item>
     <item>
       <title>Week 2: Ants marching</title>
