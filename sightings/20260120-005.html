@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Paddy Field Frog - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity documetation of 1m² area in Gundmi, India.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav">
+                <a href="/about.html">About</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/tree.html">Tree</a>
+                <a href="/stats.html">Stats</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        
+<div class="container">
+    <article class="sighting-detail">
+        <header class="sighting-header">
+            <h1>Common Paddy Field Frog <span class="scientific-name">(<em>Minervarya agricola</em>)</span></h1>
+        </header>
+
+        
+        <div class="sighting-images">
+            
+            <figure class="sighting-figure">
+                <img src="https://images.asquaremeter.com/web/20260120-005-a.jpg"
+                     alt="Common Paddy Field Frog"
+                     class="lightbox-trigger"
+                     data-full="https://images.asquaremeter.com/full/20260120-005-a.jpg">
+                
+            </figure>
+            
+            <figure class="sighting-figure">
+                <img src="https://images.asquaremeter.com/web/20260120-005-b.jpg"
+                     alt="Common Paddy Field Frog"
+                     class="lightbox-trigger"
+                     data-full="https://images.asquaremeter.com/full/20260120-005-b.jpg">
+                
+            </figure>
+            
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <button class="lightbox-close">&times;</button>
+            <img class="lightbox-image" src="" alt="">
+        </div>
+        
+
+        <div class="sighting-meta">
+            <div class="meta-group">
+                <h3>Details</h3>
+                <dl>
+                    <dt>ID</dt>
+                    <dd>20260120-005</dd>
+
+                    <dt>Category</dt>
+                    <dd>Amphibian</dd>
+
+                    <dt>Season</dt>
+                    <dd>Winter</dd>
+
+                    <dt>Observed</dt>
+                    <dd>January 20, 2026</dd>
+
+                    
+                    <dt>Time of Day</dt>
+                    <dd>Night</dd>
+                    
+                </dl>
+            </div>
+
+            
+            <div class="meta-group">
+                <h3>Tags</h3>
+                <div class="tags-list">
+                    
+                    <span class="tag">Frogs</span>
+                    
+                </div>
+            </div>
+            
+
+            
+            <div class="meta-group">
+                <h3>Weather</h3>
+                <dl>
+                    
+                    <dt>Temperature</dt>
+                    <dd>25.3°C - 27.1°C</dd>
+                    
+
+                    <dt>Conditions</dt>
+                    <dd>Overcast</dd>
+
+                    
+                    <dt>Humidity</dt>
+                    <dd>71%</dd>
+                    
+
+                    
+
+                    
+                    <dt>Wind</dt>
+                    <dd>27 km/h (332°)</dd>
+                    
+
+                    
+                    <dt>Pressure</dt>
+                    <dd>1011 hPa</dd>
+                    
+
+                    
+
+                    
+                    <dt>UV Index</dt>
+                    <dd>7.35</dd>
+                    
+                </dl>
+            </div>
+            
+
+            
+            <div class="meta-group">
+                <h3>Celestial</h3>
+                <dl>
+                    <dt>Moon Phase</dt>
+                    <dd>Waxing Crescent (1%)</dd>
+
+                    <dt>Sunrise</dt>
+                    <dd>06:58</dd>
+
+                    <dt>Sunset</dt>
+                    <dd>18:26</dd>
+                </dl>
+            </div>
+            
+        </div>
+
+        
+        <div class="sighting-notes">
+            <h3>Notes</h3>
+            <p>Woohoo! First frog on the patch!! I love frogs.</p>
+        </div>
+        
+
+        <nav class="sighting-nav">
+            <div class="nav-prev">
+                
+                <a href="/sightings/20260120-006.html" id="nav-prev">&larr; Lynx Spider</a>
+                
+            </div>
+            <div class="nav-center">
+                <a href="/browse.html">Browse All</a>
+            </div>
+            <div class="nav-next">
+                
+            </div>
+        </nav>
+    </article>
+</div>
+
+<script>
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    if (!lightbox) return;
+
+    const lightboxImg = lightbox.querySelector('.lightbox-image');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    const triggers = document.querySelectorAll('.lightbox-trigger');
+
+    triggers.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.dataset.full;
+            lightboxImg.alt = img.alt;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+})();
+
+// Keyboard navigation for prev/next sighting
+document.addEventListener('keydown', (e) => {
+    if (document.getElementById('lightbox')?.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft') {
+        const prev = document.getElementById('nav-prev');
+        if (prev) prev.click();
+    } else if (e.key === 'ArrowRight') {
+        const next = document.getElementById('nav-next');
+        if (next) next.click();
+    }
+});
+</script>
+
+    </main>
+
+    <footer class="site-footer">
+        <img class="footer-illustration footer-illustration-left"
+             src="https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png"
+             alt="" aria-hidden="true">
+        <div class="container">
+            <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+        <img class="footer-illustration footer-illustration-right"
+             src="https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png"
+             alt="" aria-hidden="true">
+    </footer>
+    <script>
+    (function() {
+        var images = [
+            'https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_3_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_4_transparent.png'
+        ];
+        var leftImg = document.querySelector('.footer-illustration-left');
+        var rightImg = document.querySelector('.footer-illustration-right');
+        if (leftImg && rightImg) {
+            var leftIdx = Math.floor(Math.random() * images.length);
+            var rightIdx = Math.floor(Math.random() * images.length);
+            leftImg.src = images[leftIdx];
+            rightImg.src = images[rightIdx];
+            // Randomly flip each image
+            if (Math.random() > 0.5) leftImg.classList.add('flipped');
+            if (Math.random() > 0.5) rightImg.classList.add('flipped');
+        }
+    })();
+    </script>
+</body>
+</html>
