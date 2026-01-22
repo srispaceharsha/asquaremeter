@@ -33,31 +33,48 @@
         </header>
 
         
-        <div class="sighting-images">
-            
-            <figure class="sighting-figure">
-                <img src="https://images.asquaremeter.com/web/20260111-003-a.jpg"
+        <div class="sighting-gallery">
+            <!-- Main image display -->
+            <figure class="gallery-main">
+                <img id="main-image"
+                     src="https://images.asquaremeter.com/web/20260111-003-a.jpg"
                      alt="Golden-backed Ant"
                      class="lightbox-trigger"
                      data-full="https://images.asquaremeter.com/full/20260111-003-a.jpg">
                 
-            </figure>
-            
-            <figure class="sighting-figure">
-                <img src="https://images.asquaremeter.com/web/20260111-003-b.jpg"
-                     alt="Golden-backed Ant"
-                     class="lightbox-trigger"
-                     data-full="https://images.asquaremeter.com/full/20260111-003-b.jpg">
+                <figcaption id="main-caption"></figcaption>
                 
             </figure>
+
+            <!-- Thumbnail strip (only if more than 1 image) -->
             
-            <figure class="sighting-figure">
-                <img src="https://images.asquaremeter.com/web/20260111-003-c.jpg"
-                     alt="Golden-backed Ant"
-                     class="lightbox-trigger"
-                     data-full="https://images.asquaremeter.com/full/20260111-003-c.jpg">
+            <div class="gallery-thumbs">
                 
-            </figure>
+                <button class="gallery-thumb active"
+                        data-web="https://images.asquaremeter.com/web/20260111-003-a.jpg"
+                        data-full="https://images.asquaremeter.com/full/20260111-003-a.jpg"
+                        data-caption="">
+                    <img src="https://images.asquaremeter.com/thumb/20260111-003-a.jpg"
+                         alt="Golden-backed Ant - image 1">
+                </button>
+                
+                <button class="gallery-thumb"
+                        data-web="https://images.asquaremeter.com/web/20260111-003-b.jpg"
+                        data-full="https://images.asquaremeter.com/full/20260111-003-b.jpg"
+                        data-caption="">
+                    <img src="https://images.asquaremeter.com/thumb/20260111-003-b.jpg"
+                         alt="Golden-backed Ant - image 2">
+                </button>
+                
+                <button class="gallery-thumb"
+                        data-web="https://images.asquaremeter.com/web/20260111-003-c.jpg"
+                        data-full="https://images.asquaremeter.com/full/20260111-003-c.jpg"
+                        data-caption="">
+                    <img src="https://images.asquaremeter.com/thumb/20260111-003-c.jpg"
+                         alt="Golden-backed Ant - image 3">
+                </button>
+                
+            </div>
             
         </div>
 
@@ -185,26 +202,72 @@
 
 <script>
 (function() {
+    // Gallery thumbnail switching
+    const mainImage = document.getElementById('main-image');
+    const mainCaption = document.getElementById('main-caption');
+    const thumbs = document.querySelectorAll('.gallery-thumb');
+
+    thumbs.forEach(thumb => {
+        thumb.addEventListener('click', () => {
+            // Update main image
+            mainImage.src = thumb.dataset.web;
+            mainImage.dataset.full = thumb.dataset.full;
+            mainCaption.textContent = thumb.dataset.caption;
+
+            // Update active state
+            thumbs.forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+        });
+    });
+
+    // Lightbox
     const lightbox = document.getElementById('lightbox');
     if (!lightbox) return;
 
     const lightboxImg = lightbox.querySelector('.lightbox-image');
     const closeBtn = lightbox.querySelector('.lightbox-close');
-    const triggers = document.querySelectorAll('.lightbox-trigger');
+    let isZoomed = false;
 
-    triggers.forEach(img => {
-        img.style.cursor = 'pointer';
-        img.addEventListener('click', () => {
-            lightboxImg.src = img.dataset.full;
-            lightboxImg.alt = img.alt;
+    if (mainImage) {
+        mainImage.style.cursor = 'pointer';
+        mainImage.addEventListener('click', () => {
+            lightboxImg.src = mainImage.dataset.full;
+            lightboxImg.alt = mainImage.alt;
             lightbox.classList.add('active');
             document.body.style.overflow = 'hidden';
+            isZoomed = false;
+            lightboxImg.style.transform = '';
+            lightboxImg.style.maxWidth = '98vw';
+            lightboxImg.style.maxHeight = '98vh';
         });
+    }
+
+    // Double-tap to zoom
+    let lastTap = 0;
+    lightboxImg.addEventListener('click', (e) => {
+        const now = Date.now();
+        if (now - lastTap < 300) {
+            // Double tap
+            if (isZoomed) {
+                lightboxImg.style.transform = '';
+                lightboxImg.style.maxWidth = '98vw';
+                lightboxImg.style.maxHeight = '98vh';
+                lightboxImg.style.cursor = 'zoom-in';
+            } else {
+                lightboxImg.style.maxWidth = 'none';
+                lightboxImg.style.maxHeight = 'none';
+                lightboxImg.style.cursor = 'zoom-out';
+            }
+            isZoomed = !isZoomed;
+            e.stopPropagation();
+        }
+        lastTap = now;
     });
 
     function closeLightbox() {
         lightbox.classList.remove('active');
         document.body.style.overflow = '';
+        isZoomed = false;
     }
 
     closeBtn.addEventListener('click', closeLightbox);
