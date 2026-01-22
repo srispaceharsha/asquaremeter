@@ -752,6 +752,36 @@ li {
     text-transform: lowercase;
 }
 
+.size-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-left: 0.4rem;
+    text-transform: uppercase;
+}
+
+.size-tiny {
+    background: #e8d5e8;
+    color: #6b3a6b;
+}
+
+.size-small {
+    background: #d5e8d5;
+    color: #3a6b3a;
+}
+
+.size-medium {
+    background: #e8e2d5;
+    color: #6b5a3a;
+}
+
+.size-large {
+    background: #d5dde8;
+    color: #3a4a6b;
+}
+
 .sighting-notes {
     background: white;
     border: 1px solid var(--color-border);
