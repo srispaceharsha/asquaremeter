@@ -159,25 +159,33 @@ li {
     border-top: 1px solid var(--color-border);
     margin-top: 3rem;
 
-    /* space for text + illustrations */
-    padding: 3rem 0 clamp(3rem, 12vw, 6rem);
+    /* tighter top, generous bottom for illustrations */
+    padding-top: clamp(3rem, 8vw, 6rem);
+    padding-bottom: clamp(3rem, 12vw, 6rem);
 
     text-align: center;
     color: var(--color-text-light);
     font-size: 0.9rem;
-    overflow: hidden;
+    overflow: hidden; /* safely crop overflow */
 }
 
+/* Footer content */
 .site-footer .container {
     position: relative;
     z-index: 2; /* above illustrations */
+
+    /* slightly lifted compared to before */
+    margin-bottom: clamp(1.5rem, 4vw, 3rem);
 }
 
 .site-footer p {
     margin: 0.25rem 0;
 }
 
-/* Decorative illustrations */
+/* ========================================
+   Decorative illustrations
+   ======================================== */
+
 .footer-illustration {
     position: absolute;
     bottom: 0;
@@ -186,7 +194,7 @@ li {
     width: clamp(260px, 53vw, 900px);
     height: auto;
 
-    opacity: 1.0;
+    opacity: 1;
     pointer-events: none;
     z-index: 1;
 }
@@ -200,7 +208,10 @@ li {
     transform: scaleX(-1);
 }
 
-/* Mobile refinement */
+/* ========================================
+   Mobile refinement
+   ======================================== */
+
 @media (max-width: 600px) {
     .footer-illustration-right {
         display: none;
@@ -212,6 +223,7 @@ li {
         width: clamp(200px, 100vw, 420px);
     }
 }
+
 
 
 
