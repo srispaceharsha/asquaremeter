@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colophon - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity documetation of 1m² area in Gundmi, India.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav">
+                <a href="/about.html">About</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/tree.html">Tree</a>
+                <a href="/stats.html">Stats</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        
+<div class="container page-content">
+    <h1>Colophon</h1>
+    <p class="colophon-intro">This page celebrates the tools and technologies that power One Square Meter.</p>
+
+    <section class="about-section">
+        <h2>Source Code</h2>
+        <p>This project is open source. The code is split into two repositories:</p>
+        <ul>
+            <li><a href="https://github.com/srispaceharsha/asquaremeter">asquaremeter</a> - The static site (HTML, CSS, templates)</li>
+            <li><a href="https://github.com/srispaceharsha/asquaremeter-cms">asquaremeter-cms</a> - The pipeline and build tools</li>
+        </ul>
+    </section>
+
+    <section class="about-section">
+        <h2>Built With</h2>
+
+        <h3>Backend & Pipeline</h3>
+        <ul>
+            <li><a href="https://www.python.org/">Python</a> - The language powering the data pipeline and site generator</li>
+            <li><a href="https://jinja.palletsprojects.com/">Jinja2</a> - Templating engine for generating HTML pages</li>
+            <li><a href="https://python-pillow.org/">Pillow</a> - Image processing for thumbnails and web-sized images</li>
+            <li><a href="https://rhodesmill.org/pyephem/">PyEphem</a> - Calculating moon phases and sun times</li>
+            <li><a href="https://open-meteo.com/">Open-Meteo</a> - Weather data API</li>
+            <li><a href="https://www.gbif.org/">GBIF</a> - Taxonomy data for species identification</li>
+            <li><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html">Boto3</a> - Uploading images to cloud storage</li>
+        </ul>
+
+        <h3>Frontend</h3>
+        <ul>
+            <li>Vanilla HTML, CSS & JavaScript - No frameworks, just the basics</li>
+            <li><a href="https://fonts.google.com/">Google Fonts</a> - Typography</li>
+        </ul>
+
+        <h3>Infrastructure</h3>
+        <ul>
+            <li><a href="https://pages.cloudflare.com/">Cloudflare Pages</a> - Static site hosting</li>
+            <li><a href="https://www.cloudflare.com/products/r2/">Cloudflare R2</a> - Image storage and CDN</li>
+            <li><a href="https://github.com/">GitHub</a> - Version control and CI/CD</li>
+        </ul>
+    </section>
+
+    <section class="about-section">
+        <h2>Code Authorship</h2>
+        <p>
+            The codebase for this project was written collaboratively with
+            <a href="https://claude.ai/">Claude</a>, an AI assistant by Anthropic.
+            From the data pipeline to the static site generator, from image processing
+            to taxonomy lookups - Claude helped architect and implement it all through
+            conversation and iteration.
+        </p>
+        <p>
+            A human provided the vision, the domain knowledge, and the bugs to document.
+            An AI provided the code. Together, we built something neither could have alone.
+        </p>
+    </section>
+
+    <section class="about-section">
+        <h2>License</h2>
+        <p>
+            The code is available under the MIT License.
+            The content (photographs, text, and data) is licensed under
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+        </p>
+    </section>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+        <img class="footer-illustration footer-illustration-left"
+             src="https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png"
+             alt="" aria-hidden="true">
+        <div class="container">
+            <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+        <img class="footer-illustration footer-illustration-right"
+             src="https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png"
+             alt="" aria-hidden="true">
+    </footer>
+    <script>
+    (function() {
+        var images = [
+            'https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_3_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_4_transparent.png'
+        ];
+        var leftImg = document.querySelector('.footer-illustration-left');
+        var rightImg = document.querySelector('.footer-illustration-right');
+        if (leftImg && rightImg) {
+            var leftIdx = Math.floor(Math.random() * images.length);
+            var rightIdx = Math.floor(Math.random() * images.length);
+            leftImg.src = images[leftIdx];
+            rightImg.src = images[rightIdx];
+            // Randomly flip each image
+            if (Math.random() > 0.5) leftImg.classList.add('flipped');
+            if (Math.random() > 0.5) rightImg.classList.add('flipped');
+        }
+    })();
+    </script>
+</body>
+</html>
