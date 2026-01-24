@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Jan 2026 19:45:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 10:41:44 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Ant-mimic Spider</title>
+      <link>https://asquaremeter.com/sightings/20260124-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260124-001-a.jpg" alt="Ant-mimic Spider" style="max-width:100%;"></p><p><strong>Ant-mimic Spider</strong> (<em>Myrmarachne sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Man. This fella gave me ample time to take good shots. Yet. Here we are.</p><p>Weather: 28.5°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 24 Jan 2026 09:11:55 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260124-001.html</guid>
+    </item>
     <item>
       <title>Sighting: White Rice Leafhopper</title>
       <link>https://asquaremeter.com/sightings/20260123-005.html</link>
@@ -140,13 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260120-002-a.jpg" alt="Carinate Locust" style="max-width:100%;"></p><p><strong>Carinate Locust</strong> (<em>Trilophidia annulata</em>)</p><p>Category: Insect | Season: Winter</p><p>Cool bug, with eyes that match the body!</p><p>Weather: 27.1°C, Overcast</p>]]></description>
       <pubDate>Tue, 20 Jan 2026 11:51:29 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260120-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Jewel Beetle</title>
-      <link>https://asquaremeter.com/sightings/20260119-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260119-001-a.jpg" alt="Jewel Beetle" style="max-width:100%;"></p><p><strong>Jewel Beetle</strong> (<em>Aphanisticus sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Very small, looked just like a small black thing. Hard to see features unless looked closer.</p><p>Weather: 27.5°C, Partly cloudy</p>]]></description>
-      <pubDate>Mon, 19 Jan 2026 17:24:38 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260119-001.html</guid>
     </item>
     <item>
       <title>Week 3: Settling in</title>
