@@ -1026,6 +1026,10 @@ li {
 /* ========================================
    About Page
    ======================================== */
+.page-content > h2:first-child {
+    margin-top: 3rem;
+}
+
 .about-section {
     margin-bottom: 2rem;
 }
