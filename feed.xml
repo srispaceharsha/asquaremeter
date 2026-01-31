@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 15:50:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 19:58:44 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Transverse Ladybird</title>
+      <link>https://asquaremeter.com/sightings/20260131-005.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260131-005-a.jpg" alt="Transverse Ladybird" style="max-width:100%;"></p><p><strong>Transverse Ladybird</strong> (<em>Coccinella transversalis</em>)</p><p>Category: Insect | Season: Winter</p><p>A hoverfly came to checkout this bright bug!</p><p>Weather: 28.1°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 31 Jan 2026 17:38:55 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260131-005.html</guid>
+    </item>
     <item>
       <title>Sighting: Typical Jumping Spider</title>
       <link>https://asquaremeter.com/sightings/20260131-003.html</link>
@@ -140,13 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260127-001-a.jpg" alt="Fungus Gnats" style="max-width:100%;"></p><p><strong>Fungus Gnats</strong> (<em>Orfeliini sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I woke up way early the morning, found some new insects on the plot!</p><p>Weather: 27.8°C, Slight rain showers</p>]]></description>
       <pubDate>Tue, 27 Jan 2026 05:18:22 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260127-001.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Narrow-waisted Wasp</title>
-      <link>https://asquaremeter.com/sightings/20260126-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260126-002-a.jpg" alt="Narrow-waisted Wasp" style="max-width:100%;"></p><p><strong>Narrow-waisted Wasp</strong> (<em>Anastatus catalonicus</em>)</p><p>Category: Insect | Season: Winter</p><p>Very pretty looking bug, but the wind made it hard get to a clean shot.</p><p>Weather: 27.8°C, Overcast</p>]]></description>
-      <pubDate>Mon, 26 Jan 2026 09:04:07 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260126-002.html</guid>
     </item>
     <item>
       <title>Week 4: Dust on the sensor</title>
