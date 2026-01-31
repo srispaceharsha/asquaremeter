@@ -396,6 +396,21 @@ li {
     font-size: 0.85rem;
 }
 
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+}
+
+.featured-header h2 {
+    margin-bottom: 0;
+}
+
+.featured-link {
+    font-size: 0.95rem;
+}
+
 @media (max-width: 768px) {
     .featured-grid {
         grid-template-columns: 1fr;
@@ -1558,6 +1573,132 @@ li {
 
     .species-tree details {
         margin-left: 0.75rem;
+    }
+}
+
+/* ========================================
+   Highlights Page
+   ======================================== */
+.highlights-page {
+    width: 100%;
+}
+
+.highlight-item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight-item:last-child {
+    margin-bottom: 0;
+}
+
+.highlight-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight-image img {
+    max-width: 100%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.highlight-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    gap: 2rem;
+}
+
+.highlight-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex-shrink: 0;
+}
+
+.highlight-common {
+    color: white;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.highlight-scientific {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.highlight-notes {
+    flex: 1;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 1rem;
+    max-width: 500px;
+}
+
+.highlight-right {
+    flex-shrink: 0;
+}
+
+.highlight-link {
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.highlight-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: white;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .highlight-item {
+        min-height: 70vh;
+    }
+
+    .highlight-overlay {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .highlight-common {
+        font-size: 1.25rem;
+    }
+
+    .highlight-notes {
+        text-align: left;
+        padding: 0;
+        max-width: none;
+    }
+
+    .highlight-right {
+        align-self: flex-end;
     }
 }
 
