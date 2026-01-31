@@ -5,9 +5,37 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 19:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 15:50:53 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Typical Jumping Spider</title>
+      <link>https://asquaremeter.com/sightings/20260131-003.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260131-003-a.jpg" alt="Typical Jumping Spider" style="max-width:100%;"></p><p><strong>Typical Jumping Spider</strong> (<em>Dendryphantina</em>)</p><p>Category: Arachnid | Season: Winter</p><p>You&apos;d think, with such distinct colors and features, it would be easy to identify the species name. But, nope.</p><p>Weather: 28.1°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 31 Jan 2026 11:38:16 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260131-003.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Bee Fly</title>
+      <link>https://asquaremeter.com/sightings/20260131-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260131-001-a.jpg" alt="Bee Fly" style="max-width:100%;"></p><p><strong>Bee Fly</strong> (<em>Bombyliidae sp</em>)</p><p>Category: Insect | Season: Winter</p><p>I was just wondering other day if I am gonna ever see the bee that is also a fly (or the other way around?)!</p><p>Weather: 28.1°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 31 Jan 2026 10:35:47 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260131-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Picture-winged Fly</title>
+      <link>https://asquaremeter.com/sightings/20260131-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260131-002-a.jpg" alt="Picture-winged Fly" style="max-width:100%;"></p><p><strong>Picture-winged Fly</strong> (<em>Physiphora clausa</em>)</p><p>Category: Insect | Season: Winter</p><p>Oooh, very shiny!</p><p>Weather: 28.1°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 31 Jan 2026 10:33:18 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260131-002.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Plant Bug</title>
+      <link>https://asquaremeter.com/sightings/20260131-004.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260131-004-a.jpg" alt="Plant Bug" style="max-width:100%;"></p><p><strong>Plant Bug</strong> (<em>Mirini sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>&quot;Hey, look at that bug on the plant, what shall we call it?&quot;</p><p>Weather: 28.1°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 31 Jan 2026 10:30:22 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260131-004.html</guid>
+    </item>
     <item>
       <title>Sighting: Asian Honey Bee</title>
       <link>https://asquaremeter.com/sightings/20260130-003.html</link>
@@ -119,34 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260126-002-a.jpg" alt="Narrow-waisted Wasp" style="max-width:100%;"></p><p><strong>Narrow-waisted Wasp</strong> (<em>Anastatus catalonicus</em>)</p><p>Category: Insect | Season: Winter</p><p>Very pretty looking bug, but the wind made it hard get to a clean shot.</p><p>Weather: 27.8°C, Overcast</p>]]></description>
       <pubDate>Mon, 26 Jan 2026 09:04:07 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260126-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Smooth-headed Mummy Wasp</title>
-      <link>https://asquaremeter.com/sightings/20260126-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260126-003-a.jpg" alt="Smooth-headed Mummy Wasp" style="max-width:100%;"></p><p><strong>Smooth-headed Mummy Wasp</strong> (<em>Aleiodes politiceps</em>)</p><p>Category: Insect | Season: Winter</p><p>I am yet to read up on why there is a mummy in its name.</p><p>Weather: 27.8°C, Overcast</p>]]></description>
-      <pubDate>Mon, 26 Jan 2026 08:46:14 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260126-003.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Bean Weevil</title>
-      <link>https://asquaremeter.com/sightings/20260126-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260126-001-a.jpg" alt="Bean Weevil" style="max-width:100%;"></p><p><strong>Bean Weevil</strong> (<em>Chrysomelidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I actually have seen this on the plot before. Some reason, I thought this is carpet beetle. It is not.</p><p>Weather: 27.8°C, Overcast</p>]]></description>
-      <pubDate>Mon, 26 Jan 2026 08:31:14 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260126-001.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Bermudagrass Stem Maggot</title>
-      <link>https://asquaremeter.com/sightings/20260125-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260125-002-a.jpg" alt="Bermudagrass Stem Maggot" style="max-width:100%;"></p><p><strong>Bermudagrass Stem Maggot</strong> (<em>Atherigona reversura</em>)</p><p>Category: Insect | Season: Winter</p><p>Fairly small, and unlike other similar flies it doesn&apos;t move around much.</p><p>Weather: 27.8°C, Partly cloudy</p>]]></description>
-      <pubDate>Sun, 25 Jan 2026 15:30:03 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260125-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Carinate Locust</title>
-      <link>https://asquaremeter.com/sightings/20260125-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260125-001-a.jpg" alt="Carinate Locust" style="max-width:100%;"></p><p><strong>Carinate Locust</strong> (<em>Trilophidia annulata</em>)</p><p>Category: Insect | Season: Winter</p><p>It is a joy to photograph this fellow. It sits still for hours.</p><p>Weather: 27.8°C, Partly cloudy</p>]]></description>
-      <pubDate>Sun, 25 Jan 2026 13:39:08 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260125-001.html</guid>
     </item>
     <item>
       <title>Week 4: Dust on the sensor</title>
