@@ -125,6 +125,8 @@ li {
 .site-nav {
     display: flex;
     gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .site-nav a {
@@ -1095,6 +1097,10 @@ li {
     .site-header .container {
         flex-direction: column;
         text-align: center;
+    }
+
+    .site-nav {
+        gap: 1rem;
     }
 
     .filters {
