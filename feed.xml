@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 21:33:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 12:50:30 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Black Corinnomma Spider</title>
+      <link>https://asquaremeter.com/sightings/20260201-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260201-001-a.jpg" alt="Black Corinnomma Spider" style="max-width:100%;"></p><p><strong>Black Corinnomma Spider</strong> (<em>Corinnomma severum</em>)</p><p>Category: Arachnid | Season: Winter</p><p>This one just kept moving around without a break. So I resorted to bruteforce photography. Here we are!</p><p>Weather: 28.6°C, Mainly clear</p>]]></description>
+      <pubDate>Sun, 01 Feb 2026 08:25:02 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260201-001.html</guid>
+    </item>
     <item>
       <title>Sighting: Mint Moth</title>
       <link>https://asquaremeter.com/sightings/20260131-006.html</link>
@@ -140,13 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260127-002-a.jpg" alt="Leopard Spider" style="max-width:100%;"></p><p><strong>Leopard Spider</strong> (<em>Pardosa laura</em>)</p><p>Category: Arachnid | Season: Winter</p><p>Early morning breakfast for this fella.</p><p>Weather: 27.8°C, Slight rain showers</p>]]></description>
       <pubDate>Tue, 27 Jan 2026 06:11:16 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260127-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Transverse Ladybird Beetle</title>
-      <link>https://asquaremeter.com/sightings/20260127-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260127-003-a.jpg" alt="Transverse Ladybird Beetle" style="max-width:100%;"></p><p><strong>Transverse Ladybird Beetle</strong> (<em>Coccinella transversalis</em>)</p><p>Category: Insect | Season: Winter</p><p>I think it was sleeping. It did not move for the whole hour.</p><p>Weather: 27.8°C, Slight rain showers</p>]]></description>
-      <pubDate>Tue, 27 Jan 2026 05:54:34 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260127-003.html</guid>
     </item>
     <item>
       <title>Week 4: Dust on the sensor</title>
