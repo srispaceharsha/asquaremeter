@@ -1204,10 +1204,17 @@ li {
 }
 
 .bar-label {
-    flex: 0 0 100px;
+    flex: 0 0 140px;
     font-size: 0.85rem;
     text-align: right;
     color: var(--color-text-light);
+}
+
+.bar-label .phase-days {
+    font-size: 0.7rem;
+    color: #999;
+    font-weight: normal;
+    display: block;
 }
 
 .bar-container {
@@ -1295,8 +1302,12 @@ li {
 
 @media (max-width: 768px) {
     .bar-label {
-        flex: 0 0 70px;
+        flex: 0 0 90px;
         font-size: 0.75rem;
+    }
+
+    .bar-label .phase-days {
+        font-size: 0.65rem;
     }
 
     .stats-grid {
