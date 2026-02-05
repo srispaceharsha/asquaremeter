@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Phase Methodology - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity documetation of 1m² area in Gundmi, India.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav">
+                <a href="/about.html">About</a>
+                <a href="/highlights.html">Highlights</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/tree.html">Tree</a>
+                <a href="/stats.html">Stats</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        
+<div class="container page-content">
+    <h1>Moon Phase Methodology</h1>
+
+    <section class="about-section">
+        <p>This project records the moon phase at the time of each sighting. This page explains how the phases are calculated and what the data represents.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>What We Record</h2>
+        <p>For every sighting, we record the moon phase on that calendar day. This is purely observational data—we're documenting <em>when</em> creatures were observed, not claiming any lunar influence on their behavior.</p>
+        <p><strong>Correlation is not causation.</strong> If more sightings occur during a Waxing Gibbous moon, it could mean many things: perhaps those days had better weather, or the observer had more time, or it's simply random variation. The data shows co-occurrence, nothing more.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>How Phases Are Calculated</h2>
+        <p>Moon phases are computed using <a href="https://rhodesmill.org/pyephem/" target="_blank">PyEphem</a>, an astronomical library. For each date, we calculate:</p>
+        <ol>
+            <li>The moon's illumination percentage (0% = new moon, 100% = full moon)</li>
+            <li>Whether the moon is waxing (growing brighter) or waning (growing dimmer)</li>
+            <li>The distance in days from the nearest new moon and full moon</li>
+        </ol>
+        <p>These values determine which of the eight traditional phases applies.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>Phase Definitions</h2>
+        <p>The eight phases are defined as follows:</p>
+        <table class="moon-phase-table">
+            <thead>
+                <tr>
+                    <th>Phase</th>
+                    <th>Condition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>New Moon</td>
+                    <td>Within 1 day of astronomical new moon</td>
+                </tr>
+                <tr>
+                    <td>Waxing Crescent</td>
+                    <td>Waxing, illumination &lt; 50%</td>
+                </tr>
+                <tr>
+                    <td>First Quarter</td>
+                    <td>Waxing, illumination 50–55%</td>
+                </tr>
+                <tr>
+                    <td>Waxing Gibbous</td>
+                    <td>Waxing, illumination &gt; 55%</td>
+                </tr>
+                <tr>
+                    <td>Full Moon</td>
+                    <td>Within 1 day of astronomical full moon</td>
+                </tr>
+                <tr>
+                    <td>Waning Gibbous</td>
+                    <td>Waning, illumination &gt; 55%</td>
+                </tr>
+                <tr>
+                    <td>Last Quarter</td>
+                    <td>Waning, illumination 45–55%</td>
+                </tr>
+                <tr>
+                    <td>Waning Crescent</td>
+                    <td>Waning, illumination &lt; 45%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="about-section">
+        <h2>Why Some Phases Have Fewer Days</h2>
+        <p>You may notice that First Quarter and Last Quarter have very few days compared to other phases. This is not a bug—it's astronomy.</p>
+        <p>The moon's illumination changes non-linearly through its ~29.5 day cycle. It moves slowly near the extremes (new and full) and quickly through the middle range. The "quarter" phases—when illumination crosses 50%—last only 1–2 days because the moon passes through that range rapidly.</p>
+        <p>For example: In January 2026, First Quarter occurred at 4:47 AM on January 26th. By that evening, illumination had already exceeded 55%, pushing the classification into Waxing Gibbous. The entire First Quarter "window" lasted less than a calendar day.</p>
+        <p>This is why the statistics show uneven day counts per phase. It's mathematically accurate, even if it seems counterintuitive.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>Interpreting the Data</h2>
+        <p>When viewing "Sightings by Moon Phase" on the <a href="/stats.html">statistics page</a>, keep in mind:</p>
+        <ul>
+            <li>The number in parentheses shows how many days fell into that phase during the project period</li>
+            <li>More days in a phase naturally means more opportunity for sightings</li>
+            <li>To compare activity levels, consider sightings <em>per day</em> of each phase, not raw totals</li>
+            <li>Sample sizes are still small—patterns may emerge or disappear as the year progresses</li>
+        </ul>
+    </section>
+
+    <section class="about-section">
+        <h2>Source Code</h2>
+        <p>The moon phase calculation is implemented in <code>pipeline.py</code>. The full source code for this project is available on <a href="https://github.com/sriharsha/asquaremeter" target="_blank">GitHub</a>.</p>
+    </section>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+        <img class="footer-illustration footer-illustration-left"
+             src="https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png"
+             alt="" aria-hidden="true">
+        <div class="container">
+            <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+        <img class="footer-illustration footer-illustration-right"
+             src="https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png"
+             alt="" aria-hidden="true">
+    </footer>
+    <script>
+    (function() {
+        var images = [
+            'https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_3_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_4_transparent.png'
+        ];
+        var leftImg = document.querySelector('.footer-illustration-left');
+        var rightImg = document.querySelector('.footer-illustration-right');
+        if (leftImg && rightImg) {
+            var leftIdx = Math.floor(Math.random() * images.length);
+            var rightIdx = Math.floor(Math.random() * images.length);
+            leftImg.src = images[leftIdx];
+            rightImg.src = images[rightIdx];
+            // Randomly flip each image
+            if (Math.random() > 0.5) leftImg.classList.add('flipped');
+            if (Math.random() > 0.5) rightImg.classList.add('flipped');
+        }
+    })();
+    </script>
+</body>
+</html>

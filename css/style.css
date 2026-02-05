@@ -1300,6 +1300,39 @@ li {
     font-size: 0.85rem;
 }
 
+.methodology-link {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
+
+.methodology-link a {
+    color: var(--color-accent);
+}
+
+/* Moon phase methodology page table */
+.moon-phase-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.moon-phase-table th,
+.moon-phase-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.moon-phase-table th {
+    background: var(--color-bg-alt);
+    font-weight: 600;
+}
+
+.moon-phase-table tr:last-child td {
+    border-bottom: none;
+}
+
 @media (max-width: 768px) {
     .bar-label {
         flex: 0 0 90px;
