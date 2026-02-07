@@ -1802,3 +1802,51 @@ li {
         object-fit: contain;
     }
 }
+
+/* ========================================
+   Contact Form
+   ======================================== */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: white;
+    color: var(--color-text);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.contact-form button:hover {
+    background: var(--color-accent-dark);
+}
