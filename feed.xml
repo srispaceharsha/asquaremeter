@@ -5,7 +5,7 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Feb 2026 14:28:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 14:38:18 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
@@ -21,6 +21,19 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260208-002-a.jpg" alt="Seed-eating Bug" style="max-width:100%;"></p><p><strong>Seed-eating Bug</strong> (<em>Graptostethus sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Look at that pattern. Chill ones, don&apos;t move as much.</p><p>Weather: 28.3°C, Partly cloudy</p>]]></description>
       <pubDate>Sun, 08 Feb 2026 11:27:22 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260208-002.html</guid>
+    </item>
+    <item>
+      <title>Week 6: It feels like summer</title>
+      <link>https://asquaremeter.com/posts/08022026.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post7.JPG" alt="Week 6: It feels like summer" style="max-width:100%;"></p><p><em>Somedays I see many bugs, other days very few.</em></p>
+<p>Hello!</p>
+<p>This square meter plot is drying and fast. The daytime temperature is rising, the <a href="https://asquaremeter.com/sightings/20260130-007.html">Philippine Spinach</a> has turned yellow. </p>
+<p>I saw fewer bugs in the last few days, I suspect the trend might continue into summer.</p>
+<p>It has just been a few weeks, and the data of the species is already a bit messy. Double counting, mis-identified bugs, same bug logged with genus name as well as family name etc. </p>
+<p>I will fix it in the coming weeks. </p>
+<p>’Til next week!</p>]]></description>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://asquaremeter.com/posts/08022026.html</guid>
     </item>
     <item>
       <title>Sighting: Brachyceran Fly</title>
