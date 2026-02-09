@@ -561,7 +561,7 @@ li {
 
 .sightings-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
 
@@ -582,13 +582,13 @@ li {
 
 .sighting-card img {
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
 }
 
 .sighting-card .no-image {
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 3 / 2;
     background: var(--color-bg-alt);
     display: flex;
     align-items: center;
@@ -618,6 +618,42 @@ li {
 
 .sighting-info .category {
     text-transform: capitalize;
+}
+
+/* Browse Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.pagination button {
+    padding: 0.5rem 1rem;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+}
+
+.pagination button:hover {
+    background: var(--color-accent-dark);
+}
+
+.pagination button:disabled {
+    background: var(--color-border);
+    cursor: not-allowed;
+}
+
+.pagination-info {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
 }
 
 /* ========================================
