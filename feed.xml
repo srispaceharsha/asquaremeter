@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Feb 2026 14:38:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 07:14:50 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Fruit-fly</title>
+      <link>https://asquaremeter.com/sightings/20260208-003.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260208-003-a.jpg" alt="Fruit-fly" style="max-width:100%;"></p><p><strong>Fruit-fly</strong> (<em>Schistopterini sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>This seems rare. Half the size of a common house fly, double the dazzle! A pleasure to photograph.</p><p>Weather: 28.6°C, Partly cloudy</p>]]></description>
+      <pubDate>Sun, 08 Feb 2026 17:54:52 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260208-003.html</guid>
+    </item>
     <item>
       <title>Sighting: Grass Fly</title>
       <link>https://asquaremeter.com/sightings/20260208-001.html</link>
@@ -153,13 +160,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260204-004-a.jpg" alt="Leafhopper Nymph" style="max-width:100%;"></p><p><strong>Leafhopper Nymph</strong> (<em>Cicadellidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Woah, just a tiny white blob.</p><p>Weather: 29.0°C, Partly cloudy</p>]]></description>
       <pubDate>Wed, 04 Feb 2026 13:53:19 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260204-004.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Geometer Moth Caterpillar</title>
-      <link>https://asquaremeter.com/sightings/20260204-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260204-003-a.jpg" alt="Geometer Moth Caterpillar" style="max-width:100%;"></p><p><strong>Geometer Moth Caterpillar</strong> (<em>Geometridae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Thin, string like and moves like a leech.</p><p>Weather: 29.0°C, Partly cloudy</p>]]></description>
-      <pubDate>Wed, 04 Feb 2026 10:05:46 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260204-003.html</guid>
     </item>
     <item>
       <title>Week 5: A mirror of life</title>
