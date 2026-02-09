@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 18:29:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 19:36:27 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Spotted Fly</title>
+      <link>https://asquaremeter.com/sightings/20260209-003.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260209-003-a.jpg" alt="Spotted Fly" style="max-width:100%;"></p><p><strong>Spotted Fly</strong> (<em>Homoneura trypetoptera</em>)</p><p>Category: Insect | Season: Winter</p><p>The number of various flies I see is a lot. Yet another patterned fly.</p><p>Weather: 28.1°C, Partly cloudy</p>]]></description>
+      <pubDate>Mon, 09 Feb 2026 18:19:53 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260209-003.html</guid>
+    </item>
     <item>
       <title>Sighting: Small Jumping Spider</title>
       <link>https://asquaremeter.com/sightings/20260209-002.html</link>
@@ -153,13 +160,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260204-005-a.jpg" alt="Dark-winged Fungus Gnat" style="max-width:100%;"></p><p><strong>Dark-winged Fungus Gnat</strong> (<em>Sciara hemerobioides</em>)</p><p>Category: Insect | Season: Winter</p><p>Small fly, hard to spot in the night.</p><p>Weather: 29.0°C, Partly cloudy</p>]]></description>
       <pubDate>Wed, 04 Feb 2026 20:05:38 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260204-005.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Unknown Caterpillar</title>
-      <link>https://asquaremeter.com/sightings/20260204-008.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260204-008-a.jpg" alt="Unknown Caterpillar" style="max-width:100%;"></p><p><strong>Unknown Caterpillar</strong> (<em>Lepidoptera sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I thought IDing this one would be easy! Nope. I&apos;ll mark this as unknown for now.</p><p>Weather: 29.0°C, Partly cloudy</p>]]></description>
-      <pubDate>Wed, 04 Feb 2026 19:58:01 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260204-008.html</guid>
     </item>
     <item>
       <title>Week 5: A mirror of life</title>
