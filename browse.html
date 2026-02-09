@@ -11,10 +11,11 @@
     
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="site-header">
         <div class="container">
             <a href="/" class="site-title">One Square Meter</a>
-            <nav class="site-nav">
+            <nav class="site-nav" aria-label="Main navigation">
                 <a href="/about.html">About</a>
                 <a href="/highlights.html">Highlights</a>
                 <a href="/posts/">Posts</a>
@@ -25,12 +26,14 @@
         </div>
     </header>
 
-    <main class="site-main">
+    <main class="site-main" id="main-content">
         
 <div class="container">
     <h1>Browse Sightings</h1>
+    <p class="page-intro">Every creature photographed in the square meter, all in one place. Click any image to see details. Use the dropdowns below to filter by category, season, or time of day.</p>
 
     <div class="filters">
+        <label for="filter-category" class="visually-hidden">Filter by category</label>
         <select id="filter-category">
             <option value="">All Categories</option>
             
@@ -50,6 +53,7 @@
             
         </select>
 
+        <label for="filter-season" class="visually-hidden">Filter by season</label>
         <select id="filter-season">
             <option value="">All Seasons</option>
             
@@ -63,6 +67,7 @@
             
         </select>
 
+        <label for="filter-time" class="visually-hidden">Filter by time of day</label>
         <select id="filter-time">
             <option value="">All Times</option>
             <option value="morning">Morning</option>
@@ -71,6 +76,7 @@
             <option value="night">Night</option>
         </select>
 
+        <label for="filter-tag" class="visually-hidden">Filter by tag</label>
         <select id="filter-tag">
             <option value="">All Tags</option>
             
@@ -1112,7 +1118,7 @@
             
         </select>
 
-        <span class="filter-count"><span id="visible-count">202</span> sightings</span>
+        <span class="filter-count" aria-live="polite"><span id="visible-count">202</span> sightings</span>
     </div>
 
     
@@ -5160,12 +5166,12 @@
         
     </div>
 
-    <nav class="pagination" id="pagination">
-        <button id="prev-page">← Previous</button>
+    <nav class="pagination" id="pagination" aria-label="Sightings pagination">
+        <button id="prev-page" aria-label="Go to previous page">← Previous</button>
         <span class="pagination-info">
             Page <span id="current-page">1</span> of <span id="total-pages">1</span>
         </span>
-        <button id="next-page">Next →</button>
+        <button id="next-page" aria-label="Go to next page">Next →</button>
     </nav>
     
 </div>
