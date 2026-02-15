@@ -37,7 +37,7 @@
 
         
         <figure class="post-cover">
-            <img src="/images/post5.JPG" alt="Week 4: Dust on the sensor">
+            <img src="/images/post5.JPG" alt="Week 4: Dust on the sensor" class="lightbox-trigger">
         </figure>
         
 
@@ -282,6 +282,73 @@
         </nav>
     </article>
 </div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+    <img class="lightbox-image" src="" alt="">
+</div>
+
+<script>
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('.lightbox-image');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    let isZoomed = false;
+
+    // Make all images in post clickable
+    const postImages = document.querySelectorAll('.post-cover img, .post-content img');
+
+    postImages.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            isZoomed = false;
+            lightboxImg.style.transform = '';
+            lightboxImg.style.maxWidth = '98vw';
+            lightboxImg.style.maxHeight = '98vh';
+        });
+    });
+
+    // Double-tap to zoom
+    let lastTap = 0;
+    lightboxImg.addEventListener('click', (e) => {
+        const now = Date.now();
+        if (now - lastTap < 300) {
+            if (isZoomed) {
+                lightboxImg.style.transform = '';
+                lightboxImg.style.maxWidth = '98vw';
+                lightboxImg.style.maxHeight = '98vh';
+                lightboxImg.style.cursor = 'zoom-in';
+            } else {
+                lightboxImg.style.maxWidth = 'none';
+                lightboxImg.style.maxHeight = 'none';
+                lightboxImg.style.cursor = 'zoom-out';
+            }
+            isZoomed = !isZoomed;
+            e.stopPropagation();
+        }
+        lastTap = now;
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+        isZoomed = false;
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+})();
+</script>
 
     </main>
 
