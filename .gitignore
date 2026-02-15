@@ -1,2 +1,8 @@
+# OS files
 .DS_Store
 Thumbs.db
+
+# Sighting images - served from CDN
+images/full/
+images/thumb/
+images/web/
