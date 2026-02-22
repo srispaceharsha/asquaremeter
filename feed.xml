@@ -5,9 +5,16 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 09:12:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 14:11:54 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Dark-winged Fungus Gnat</title>
+      <link>https://asquaremeter.com/sightings/20260222-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260222-001-a.jpg" alt="Dark-winged Fungus Gnat" style="max-width:100%;"></p><p><strong>Dark-winged Fungus Gnat</strong> (<em>Sciara hemerobioides</em>)</p><p>Category: Insect | Season: Winter</p><p>Looks like a mosquito from far, but it is not. It is a gnat.</p><p>Weather: 28.5°C, Overcast</p>]]></description>
+      <pubDate>Sun, 22 Feb 2026 07:46:43 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260222-001.html</guid>
+    </item>
     <item>
       <title>Sighting: Wood Cockroach</title>
       <link>https://asquaremeter.com/sightings/20260221-001.html</link>
@@ -140,13 +147,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260217-005-a.jpg" alt="Black Stink Bug" style="max-width:100%;"></p><p><strong>Black Stink Bug</strong> (<em>Coptosoma variegatum</em>)</p><p>Category: Insect | Season: Winter</p><p>Looks like a black button. Allowed me 2 shots and flew away!</p><p>Weather: 28.7°C, Overcast</p>]]></description>
       <pubDate>Tue, 17 Feb 2026 12:04:29 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260217-005.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Common House Fly</title>
-      <link>https://asquaremeter.com/sightings/20260217-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260217-002-a.jpg" alt="Common House Fly" style="max-width:100%;"></p><p><strong>Common House Fly</strong> (<em>Musca domestica</em>)</p><p>Category: Insect | Season: Winter</p><p>Well, common house fly.</p><p>Weather: 28.7°C, Overcast</p>]]></description>
-      <pubDate>Tue, 17 Feb 2026 11:24:57 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260217-002.html</guid>
     </item>
     <item>
       <title>Week 7: It is complicated.</title>
