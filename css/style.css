@@ -190,6 +190,72 @@ li {
     text-decoration: none;
 }
 
+/* Journal dropdown */
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown-toggle {
+    cursor: pointer;
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    background: none;
+    border: none;
+    font-family: inherit;
+    padding: 0;
+}
+
+.nav-dropdown-toggle:hover {
+    color: var(--color-accent);
+}
+
+.nav-dropdown-toggle::after {
+    content: " ▾";
+    font-size: 0.7rem;
+}
+
+.nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px var(--color-shadow);
+    min-width: 160px;
+    padding: 0.5rem 0;
+    z-index: 100;
+    margin-top: 0.5rem;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+    display: block;
+}
+
+.nav-dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--color-text);
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+    background: var(--color-bg-alt);
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.nav-dropdown-menu .dropdown-label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    margin-top: 0.25rem;
+}
+
 .rss-link {
     font-size: 0.85rem;
     padding: 0.25rem 0.5rem;
@@ -1345,6 +1411,28 @@ li {
 
     .site-nav {
         gap: 1rem;
+    }
+
+    /* Mobile dropdown - tap friendly */
+    .nav-dropdown-menu {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: none;
+        border-radius: var(--radius) var(--radius) 0 0;
+        margin-top: 0;
+        padding: 1rem 0;
+    }
+
+    .nav-dropdown-menu a {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .nav-dropdown-menu .dropdown-label {
+        font-size: 0.85rem;
     }
 
     .filters {

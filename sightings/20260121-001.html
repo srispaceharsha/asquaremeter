@@ -18,7 +18,13 @@
             <nav class="site-nav" aria-label="Main navigation">
                 <a href="/about.html">About</a>
                 <a href="/highlights.html">Highlights</a>
-                <a href="/posts/">Posts</a>
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">Journal</button>
+                    <div class="nav-dropdown-menu" role="menu">
+                        <a href="/posts/" role="menuitem">Sri's Posts <span class="dropdown-label">Weekly field notes</span></a>
+                        <a href="/notes/" role="menuitem">Claude's Notes <span class="dropdown-label">From the other side</span></a>
+                    </div>
+                </div>
                 <a href="/browse.html">Browse</a>
                 <a href="/tree.html">Tree</a>
                 <a href="/stats.html">Stats</a>
