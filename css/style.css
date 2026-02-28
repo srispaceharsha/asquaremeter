@@ -1420,7 +1420,13 @@ li {
     }
 
     .site-nav {
-        gap: 1rem;
+        gap: 0.6rem;
+        font-size: 0.85rem;
+    }
+
+    .site-nav a,
+    .nav-dropdown-toggle {
+        font-size: 0.85rem;
     }
 
     /* Mobile dropdown - tap friendly */
