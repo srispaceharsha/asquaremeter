@@ -227,7 +227,17 @@ li {
     min-width: 160px;
     padding: 0.5rem 0;
     z-index: 100;
-    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+
+/* Bridge the gap for hover */
+.nav-dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
 }
 
 .nav-dropdown:hover .nav-dropdown-menu,
