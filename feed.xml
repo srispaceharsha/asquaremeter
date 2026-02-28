@@ -5,9 +5,23 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 20:24:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 21:07:23 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Spider Wasp</title>
+      <link>https://asquaremeter.com/sightings/20260228-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260228-001-a.jpg" alt="Spider Wasp" style="max-width:100%;"></p><p><strong>Spider Wasp</strong> (<em>Pompilidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Found around 8 PM, couldn&apos;t find more details as it was quite dark. Not very confident about the ID. Wasps seem harder to narrow in on species.</p><p>Weather: 28.5°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 28 Feb 2026 19:42:53 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260228-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Stinging Wasp</title>
+      <link>https://asquaremeter.com/sightings/20260228-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260228-002-a.jpg" alt="Stinging Wasp" style="max-width:100%;"></p><p><strong>Stinging Wasp</strong> (<em>Aculeata sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I spent one whole hour to narrow down this to a proper taxonomic level. Still not very sure. All AI seem to fail at this one.</p><p>Weather: 28.5°C, Partly cloudy</p>]]></description>
+      <pubDate>Sat, 28 Feb 2026 08:28:34 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260228-002.html</guid>
+    </item>
     <item>
       <title>Sighting: Lady Beetle</title>
       <link>https://asquaremeter.com/sightings/20260227-003.html</link>
@@ -147,20 +161,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260220-001-a.jpg" alt="Bark Mantis" style="max-width:100%;"></p><p><strong>Bark Mantis</strong> (<em>Humbertiella sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>It is nymph, not a grownup.</p><p>Weather: 28.7°C, Partly cloudy</p>]]></description>
       <pubDate>Fri, 20 Feb 2026 18:23:00 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260220-001.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Ant-Eating Spider</title>
-      <link>https://asquaremeter.com/sightings/20260220-006.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260220-006-a.jpg" alt="Ant-Eating Spider" style="max-width:100%;"></p><p><strong>Ant-Eating Spider</strong> (<em>Euryopis sp.</em>)</p><p>Category: Arachnid | Season: Winter</p><p>Weather: 28.7°C, Partly cloudy</p>]]></description>
-      <pubDate>Fri, 20 Feb 2026 18:23:00 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260220-006.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Basil Lace Bug</title>
-      <link>https://asquaremeter.com/sightings/20260220-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260220-002-a.jpg" alt="Basil Lace Bug" style="max-width:100%;"></p><p><strong>Basil Lace Bug</strong> (<em>Cochlochila bullita</em>)</p><p>Category: Insect | Season: Winter</p><p>Weather: 28.7°C, Partly cloudy</p>]]></description>
-      <pubDate>Fri, 20 Feb 2026 14:03:00 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260220-002.html</guid>
     </item>
     <item>
       <title>Week 7: It is complicated.</title>
