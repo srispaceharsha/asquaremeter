@@ -1376,6 +1376,18 @@ li {
     max-width: 600px;
 }
 
+.claude-notes-link {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.claude-notes-link a {
+    color: var(--color-accent);
+}
+
 /* ========================================
    Utilities
    ======================================== */
