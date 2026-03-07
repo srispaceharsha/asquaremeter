@@ -5,9 +5,23 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 09:11:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 17:59:20 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Leaf-Footed Bug</title>
+      <link>https://asquaremeter.com/sightings/20260307-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260307-001-a.jpg" alt="Leaf-Footed Bug" style="max-width:100%;"></p><p><strong>Leaf-Footed Bug</strong> (<em>Cletus trigonus</em>)</p><p>Category: Insect | Season: Summer</p><p>I like these bugs. Such a detailed patterns on them!</p><p>Weather: 28.7°C, Overcast</p>]]></description>
+      <pubDate>Sat, 07 Mar 2026 08:44:33 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260307-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Three-striped Lady Beetle</title>
+      <link>https://asquaremeter.com/sightings/20260307-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260307-002-a.jpg" alt="Three-striped Lady Beetle" style="max-width:100%;"></p><p><strong>Three-striped Lady Beetle</strong> (<em>Brumoides suturalis</em>)</p><p>Category: Insect | Season: Summer</p><p>Tiny beetle. Made camp at the square meter plot whole day today.</p><p>Weather: 28.7°C, Overcast</p>]]></description>
+      <pubDate>Sat, 07 Mar 2026 07:58:14 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260307-002.html</guid>
+    </item>
     <item>
       <title>Sighting: Pygmy Dartlet</title>
       <link>https://asquaremeter.com/sightings/20260306-001.html</link>
@@ -160,20 +174,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260223-003-a.jpg" alt="Tulsi" style="max-width:100%;"></p><p><strong>Tulsi</strong> (<em>Ocimum tenuiflorum</em>)</p><p>Category: Plant | Season: Winter</p><p>This grew in the last few weeks. It wasn&apos;t there in the beginning of the year. Cool!</p><p>Weather: 28.6°C, Slight rain showers</p>]]></description>
       <pubDate>Mon, 23 Feb 2026 09:24:47 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260223-003.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Short-Horned Grasshopper</title>
-      <link>https://asquaremeter.com/sightings/20260223-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260223-002-a.jpg" alt="Short-Horned Grasshopper" style="max-width:100%;"></p><p><strong>Short-Horned Grasshopper</strong> (<em>Acrididae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>It just changed its exoskeleton. Brand new skin!</p><p>Weather: 28.6°C, Slight rain showers</p>]]></description>
-      <pubDate>Mon, 23 Feb 2026 09:22:10 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260223-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Leaf-Miner Fly</title>
-      <link>https://asquaremeter.com/sightings/20260223-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260223-001-a.jpg" alt="Leaf-Miner Fly" style="max-width:100%;"></p><p><strong>Leaf-Miner Fly</strong> (<em>Melanagromyza sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>It is getting really hard to remember all the different types of flies I&apos;ve seen in the square meter area. This one seems familiar, yet - a new sighting.</p><p>Weather: 28.6°C, Slight rain showers</p>]]></description>
-      <pubDate>Mon, 23 Feb 2026 07:38:44 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260223-001.html</guid>
     </item>
     <item>
       <title>Week 8: Game of life (and death)</title>
