@@ -5,9 +5,27 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 08:58:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 13:31:09 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Week 11: life outside the square</title>
+      <link>https://asquaremeter.com/posts/15032026.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post12.JPG" alt="Week 11: life outside the square" style="max-width:100%;"></p><p><em>Life exists outside the square meter too!</em></p>
+<p>Hello!</p>
+<p>The acrobat ants have disappeared overnight. I haven't spotted them in the last few days. I wonder what they are up to.</p>
+<p>Otherwise, life outside the square meter got a bit hectic in the last few days, which involved a hospital stay as well. I did manage to spend a few minutes observing the plot every day and logged whatever bugs I could see. But this entire week, I haven't managed to spend quality time there. Hopefully, it will get better in the coming week. </p>
+<p>’Til next week!</p>]]></description>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://asquaremeter.com/posts/15032026.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Stink Bug</title>
+      <link>https://asquaremeter.com/sightings/20260313-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260313-001-a.jpg" alt="Stink Bug" style="max-width:100%;"></p><p><strong>Stink Bug</strong> (<em>Acrosternum gramineum</em>)</p><p>Category: Insect | Season: Summer</p><p>Stinj bug! Lot of childhood memories of this one.</p><p>Weather: 29.2°C, Slight rain showers</p>]]></description>
+      <pubDate>Fri, 13 Mar 2026 09:25:33 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260313-001.html</guid>
+    </item>
     <item>
       <title>Sighting: Chalcidoid Wasp</title>
       <link>https://asquaremeter.com/sightings/20260311-001.html</link>
@@ -184,13 +202,6 @@
       <guid>https://asquaremeter.com/sightings/20260223-004.html</guid>
     </item>
     <item>
-      <title>Sighting: Typical Jumping Spider</title>
-      <link>https://asquaremeter.com/sightings/20260223-006.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260223-006-a.jpg" alt="Typical Jumping Spider" style="max-width:100%;"></p><p><strong>Typical Jumping Spider</strong> (<em>Salticinae sp.</em>)</p><p>Category: Arachnid | Season: Winter</p><p>Jumper. Small and moved so fast! Just a record shot.</p><p>Weather: 28.6°C, Slight rain showers</p>]]></description>
-      <pubDate>Mon, 23 Feb 2026 13:47:25 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260223-006.html</guid>
-    </item>
-    <item>
       <title>Week 8: Game of life (and death)</title>
       <link>https://asquaremeter.com/posts/22022026.html</link>
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post9.JPG" alt="Week 8: Game of life (and death)" style="max-width:100%;"></p><p><em>Kill or be killed, that seems to be the vibe.</em></p>
@@ -292,20 +303,6 @@
 <p>’Til next week!</p>]]></description>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://asquaremeter.com/posts/11012026.html</guid>
-    </item>
-    <item>
-      <title>Week 1: Not bad!</title>
-      <link>https://asquaremeter.com/posts/04012026.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post2.jpeg" alt="Week 1: Not bad!" style="max-width:100%;"></p><p><em>My knees hurt.</em></p>
-<p>Hello!</p>
-<p>So, end of the week (well, just 4 days)! 20 species found, from very tiny to slightly bigger ones!</p>
-<p>I saw 3 new hoppers that I hadn't seen before. They are tiny! </p>
-<p>So, the morning light is not enough to get good quality photos, I have to bump up ISO, which leads to very grainy images. Looks like I will spend monies on a flash. Sigh.</p>
-<p>My macro photography skills have rusted. I am hoping it will get better as the time goes on. </p>
-<p>I also discoverd a very similar project done before by Chris Helzer. <a href="https://prairieecologist.com/square-meter-photography-project/">Read about it here</a>. The photographs he has taken are very clean and precise! Now I have a benchmark to aim for!</p>
-<p>One week at a time!</p>]]></description>
-      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://asquaremeter.com/posts/04012026.html</guid>
     </item>
   </channel>
 </rss>
