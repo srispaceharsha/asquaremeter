@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12: life outside the square - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity documetation of 1m² area in Gundmi, India.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="/about.html">About</a>
+                <a href="/highlights.html">Highlights</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/tree.html">Tree</a>
+                <a href="/stats.html">Stats</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main" id="main-content">
+        
+<div class="container">
+    <article class="post-detail">
+        <header class="post-header">
+            <h1>Week 12: life outside the square</h1>
+            <time datetime="2026-03-22">March 22, 2026</time>
+        </header>
+
+        
+        <figure class="post-cover">
+            <img src="/images/post13.JPG" alt="Week 12: life outside the square" class="lightbox-trigger">
+        </figure>
+        
+
+        <div class="post-content">
+            <p><em>The summer heat gets to you.</em></p>
+<p>Hello!</p>
+<p>The ghost ants (Tapinoma melanocephalum) have taken over the square meter plot. They are everywhere. They are tiny, barely visible and they move really fast. I think this is the reason the acrobat ants have moved out! </p>
+<p>Life outside the square meter is still a bit hectic. I couldn't spend more than 4-5 minutes at a time to observe the plot. </p>
+<p>But spending time with this hoverfly was fun.</p>
+<p><img alt="hover fly" src="/images/Hoverfly_Paraguscrenulatus00.jpg" /></p>
+<p>You guessed right, it can hover in the air! </p>
+<p><img alt="hover fly" src="/images/Hoverfly_Paraguscrenulatus22.JPG" /></p>
+<p>And They seem friendly and aren't easily spooked by my presence. </p>
+<p><img alt="square meter plot" src="/images/Hoverfly_Paraguscrenulatus11.JPG" /></p>
+<p>Also, I haven't seen the usual spiders (Lynx spiders, jumping spiders) in a while. Hah. </p>
+<p>’Til next week!</p>
+        </div>
+
+        
+        <section class="post-sightings">
+            <h2>Sightings in this post</h2>
+            <div class="sightings-strip">
+                
+                <a href="/sightings/20260318-002.html" class="sighting-thumb">
+                    
+                    <img src="https://images.asquaremeter.com/thumb/20260318-002-a.jpg"
+                         alt="Skin Beetle">
+                    
+                    <span>Skin Beetle</span>
+                </a>
+                
+                <a href="/sightings/20260318-001.html" class="sighting-thumb">
+                    
+                    <img src="https://images.asquaremeter.com/thumb/20260318-001-a.jpg"
+                         alt="Knot-horn Moth">
+                    
+                    <span>Knot-horn Moth</span>
+                </a>
+                
+                <a href="/sightings/20260319-001.html" class="sighting-thumb">
+                    
+                    <img src="https://images.asquaremeter.com/thumb/20260319-001-a.jpg"
+                         alt="Chalcidid Wasp">
+                    
+                    <span>Chalcidid Wasp</span>
+                </a>
+                
+                <a href="/sightings/20260322-001.html" class="sighting-thumb">
+                    
+                    <img src="https://images.asquaremeter.com/thumb/20260322-001-a.jpg"
+                         alt="Hover Fly">
+                    
+                    <span>Hover Fly</span>
+                </a>
+                
+            </div>
+        </section>
+        
+
+        <nav class="post-nav">
+            <a href="/posts/">&larr; All Posts</a>
+        </nav>
+    </article>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+    <img class="lightbox-image" src="" alt="">
+</div>
+
+<script>
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('.lightbox-image');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    let isZoomed = false;
+
+    // Make all images in post clickable
+    const postImages = document.querySelectorAll('.post-cover img, .post-content img');
+
+    postImages.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            isZoomed = false;
+            lightboxImg.style.transform = '';
+            lightboxImg.style.maxWidth = '98vw';
+            lightboxImg.style.maxHeight = '98vh';
+        });
+    });
+
+    // Double-tap to zoom
+    let lastTap = 0;
+    lightboxImg.addEventListener('click', (e) => {
+        const now = Date.now();
+        if (now - lastTap < 300) {
+            if (isZoomed) {
+                lightboxImg.style.transform = '';
+                lightboxImg.style.maxWidth = '98vw';
+                lightboxImg.style.maxHeight = '98vh';
+                lightboxImg.style.cursor = 'zoom-in';
+            } else {
+                lightboxImg.style.maxWidth = 'none';
+                lightboxImg.style.maxHeight = 'none';
+                lightboxImg.style.cursor = 'zoom-out';
+            }
+            isZoomed = !isZoomed;
+            e.stopPropagation();
+        }
+        lastTap = now;
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+        isZoomed = false;
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+})();
+</script>
+
+    </main>
+
+    <footer class="site-footer">
+        <img class="footer-illustration footer-illustration-left"
+             src="https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png"
+             alt="" aria-hidden="true">
+        <div class="container">
+            <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+        <img class="footer-illustration footer-illustration-right"
+             src="https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png"
+             alt="" aria-hidden="true">
+    </footer>
+    <script>
+    (function() {
+        var images = [
+            'https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_3_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_4_transparent.png'
+        ];
+        var leftImg = document.querySelector('.footer-illustration-left');
+        var rightImg = document.querySelector('.footer-illustration-right');
+        if (leftImg && rightImg) {
+            var leftIdx = Math.floor(Math.random() * images.length);
+            var rightIdx = Math.floor(Math.random() * images.length);
+            leftImg.src = images[leftIdx];
+            rightImg.src = images[rightIdx];
+            // Randomly flip each image
+            if (Math.random() > 0.5) leftImg.classList.add('flipped');
+            if (Math.random() > 0.5) rightImg.classList.add('flipped');
+        }
+    })();
+    </script>
+</body>
+</html>
