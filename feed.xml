@@ -5,9 +5,44 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Mar 2026 13:27:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 09:46:45 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Long-Jawed Orbweaver</title>
+      <link>https://asquaremeter.com/sightings/20260331-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260331-001-a.jpg" alt="Long-Jawed Orbweaver" style="max-width:100%;"></p><p><strong>Long-Jawed Orbweaver</strong> (<em>Tetragnathidae sp.</em>)</p><p>Category: Arachnid | Season: Summer</p><p>Very small, slim, hiding along the grass stem.</p><p>Weather: 30.6°C, Partly cloudy</p>]]></description>
+      <pubDate>Tue, 31 Mar 2026 08:14:11 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260331-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Chunam Tree Frog</title>
+      <link>https://asquaremeter.com/sightings/20260329-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260329-001-a.jpg" alt="Chunam Tree Frog" style="max-width:100%;"></p><p><strong>Chunam Tree Frog</strong> (<em>Polypedates maculatus</em>)</p><p>Category: Amphibian | Season: Summer</p><p>Woohoo!! Another frog in the plot! This one is a tree frog.</p><p>Weather: 30.1°C, Slight rain showers</p>]]></description>
+      <pubDate>Sun, 29 Mar 2026 21:03:51 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260329-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Unknown Ant</title>
+      <link>https://asquaremeter.com/sightings/20260329-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260329-002-a.jpg" alt="Unknown Ant" style="max-width:100%;"></p><p><strong>Unknown Ant</strong> (<em>Formicidae sp.</em>)</p><p>Category: Insect | Season: Summer</p><p>You&apos;d think identifying this would be easy with such distinct shape / color. But, nope.</p><p>Weather: 30.1°C, Slight rain showers</p>]]></description>
+      <pubDate>Sun, 29 Mar 2026 10:41:24 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260329-002.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Tailed Araneid Spider</title>
+      <link>https://asquaremeter.com/sightings/20260326-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260326-001-a.jpg" alt="Tailed Araneid Spider" style="max-width:100%;"></p><p><strong>Tailed Araneid Spider</strong> (<em>Eriovixia sp.</em>)</p><p>Category: Arachnid | Season: Summer</p><p>It looked like a brown blob.</p><p>Weather: 30.3°C, Overcast</p>]]></description>
+      <pubDate>Thu, 26 Mar 2026 10:49:10 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260326-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Ghost Ants</title>
+      <link>https://asquaremeter.com/sightings/20260324-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260324-001-a.jpg" alt="Ghost Ants" style="max-width:100%;"></p><p><strong>Ghost Ants</strong> (<em>Tapinoma melanocephalum</em>)</p><p>Category: Insect | Season: Summer</p><p>tiny ghosts.</p><p>Weather: 29.6°C, Slight rain showers</p>]]></description>
+      <pubDate>Tue, 24 Mar 2026 07:50:47 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260324-001.html</guid>
+    </item>
     <item>
       <title>Sighting: Hover Fly</title>
       <link>https://asquaremeter.com/sightings/20260322-001.html</link>
@@ -183,41 +218,6 @@
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260228-002-a.jpg" alt="Stinging Wasp" style="max-width:100%;"></p><p><strong>Stinging Wasp</strong> (<em>Aculeata sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I spent one whole hour to narrow down this to a proper taxonomic level. Still not very sure. All AI seem to fail at this one.</p><p>Weather: 28.5°C, Partly cloudy</p>]]></description>
       <pubDate>Sat, 28 Feb 2026 08:28:34 +0000</pubDate>
       <guid>https://asquaremeter.com/sightings/20260228-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Lady Beetle</title>
-      <link>https://asquaremeter.com/sightings/20260227-003.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260227-003-a.jpg" alt="Lady Beetle" style="max-width:100%;"></p><p><strong>Lady Beetle</strong> (<em>Scymninae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Almost ignored this moved on. Looked like a small dot.</p><p>Weather: 28.6°C, Partly cloudy</p>]]></description>
-      <pubDate>Fri, 27 Feb 2026 14:34:08 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260227-003.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Darth Maul Bug</title>
-      <link>https://asquaremeter.com/sightings/20260227-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260227-002-a.jpg" alt="Darth Maul Bug" style="max-width:100%;"></p><p><strong>Darth Maul Bug</strong> (<em>Spilostethus hospes</em>)</p><p>Category: Insect | Season: Winter</p><p>Mr. Maul is back. It is meditating.</p><p>Weather: 28.6°C, Partly cloudy</p>]]></description>
-      <pubDate>Fri, 27 Feb 2026 12:04:32 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260227-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Black Stink Bug</title>
-      <link>https://asquaremeter.com/sightings/20260227-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260227-001-a.jpg" alt="Black Stink Bug" style="max-width:100%;"></p><p><strong>Black Stink Bug</strong> (<em>Coptosoma variegatum</em>)</p><p>Category: Insect | Season: Winter</p><p>This bug came back and it has wings! How cool!!</p><p>Weather: 28.6°C, Partly cloudy</p>]]></description>
-      <pubDate>Fri, 27 Feb 2026 09:30:43 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260227-001.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Satellite Fly</title>
-      <link>https://asquaremeter.com/sightings/20260227-004.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260227-004-a.jpg" alt="Satellite Fly" style="max-width:100%;"></p><p><strong>Satellite Fly</strong> (<em>Metopia sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I moved a bit too fast and it flew away.</p><p>Weather: 28.6°C, Partly cloudy</p>]]></description>
-      <pubDate>Fri, 27 Feb 2026 08:20:44 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260227-004.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Short-Horned Grasshopper</title>
-      <link>https://asquaremeter.com/sightings/20260226-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260226-001-a.jpg" alt="Short-Horned Grasshopper" style="max-width:100%;"></p><p><strong>Short-Horned Grasshopper</strong> (<em>Acrididae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Small green thing.</p><p>Weather: 29.1°C, Partly cloudy</p>]]></description>
-      <pubDate>Thu, 26 Feb 2026 08:38:19 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260226-001.html</guid>
     </item>
     <item>
       <title>Week 8: Game of life (and death)</title>
