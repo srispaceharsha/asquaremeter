@@ -5,9 +5,37 @@
     <link>https://asquaremeter.com</link>
     <description>A year-long biodiversity documetation of 1m² area in Gundmi, India.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Apr 2026 07:59:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:16:04 +0000</lastBuildDate>
     <atom:link href="https://asquaremeter.com/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Sighting: Pygmy Dartlet</title>
+      <link>https://asquaremeter.com/sightings/20260403-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260403-001-a.jpg" alt="Pygmy Dartlet" style="max-width:100%;"></p><p><strong>Pygmy Dartlet</strong> (<em>Agriocnemis pygmaea</em>)</p><p>Category: Insect | Season: Summer</p><p>Early morning visitor. Pretty colors!</p><p>Weather: 29.7°C, Slight rain showers</p>]]></description>
+      <pubDate>Fri, 03 Apr 2026 07:45:08 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260403-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Leaf-Footed Bug</title>
+      <link>https://asquaremeter.com/sightings/20260402-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260402-001-a.jpg" alt="Leaf-Footed Bug" style="max-width:100%;"></p><p><strong>Leaf-Footed Bug</strong> (<em>Cletus trigonus</em>)</p><p>Category: Insect | Season: Summer</p><p>It is a pleasure to photograph these bugs, their patterns help in making sure the image is proper focussed!</p><p>Weather: 30.1°C, Thunderstorm with slight hail</p>]]></description>
+      <pubDate>Thu, 02 Apr 2026 11:56:37 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260402-001.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Termite</title>
+      <link>https://asquaremeter.com/sightings/20260401-002.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260401-002-a.jpg" alt="Termite" style="max-width:100%;"></p><p><strong>Termite</strong> (<em>Microcerotermes sp.</em>)</p><p>Category: Insect | Season: Summer</p><p>Oh my. Termites. They have occupied the wooden staff I&apos;ve planted on the corners of the square plot.</p><p>Weather: 30.5°C, Thunderstorm</p>]]></description>
+      <pubDate>Wed, 01 Apr 2026 11:58:02 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260401-002.html</guid>
+    </item>
+    <item>
+      <title>Sighting: Seed Bug</title>
+      <link>https://asquaremeter.com/sightings/20260401-001.html</link>
+      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260401-001-a.jpg" alt="Seed Bug" style="max-width:100%;"></p><p><strong>Seed Bug</strong> (<em>Melanotelus villosulus</em>)</p><p>Category: Insect | Season: Summer</p><p>The fuzzy texture of it makes it hard to get proper focus. Aargh.</p><p>Weather: 30.5°C, Thunderstorm</p>]]></description>
+      <pubDate>Wed, 01 Apr 2026 10:08:01 +0000</pubDate>
+      <guid>https://asquaremeter.com/sightings/20260401-001.html</guid>
+    </item>
     <item>
       <title>Sighting: Long-Jawed Orbweaver</title>
       <link>https://asquaremeter.com/sightings/20260331-001.html</link>
@@ -184,20 +212,6 @@
       <guid>https://asquaremeter.com/sightings/20260304-001.html</guid>
     </item>
     <item>
-      <title>Sighting: Pea And Bean Weevil</title>
-      <link>https://asquaremeter.com/sightings/20260303-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260303-002-a.jpg" alt="Pea And Bean Weevil" style="max-width:100%;"></p><p><strong>Pea And Bean Weevil</strong> (<em>Bruchinae sp.</em>)</p><p>Category: Insect | Season: Summer</p><p>Tiny weevil. Looks like a black dot.</p><p>Weather: 28.6°C, Overcast</p>]]></description>
-      <pubDate>Tue, 03 Mar 2026 16:24:09 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260303-002.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Jumping Spider</title>
-      <link>https://asquaremeter.com/sightings/20260303-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260303-001-a.jpg" alt="Jumping Spider" style="max-width:100%;"></p><p><strong>Jumping Spider</strong> (<em>Carrhotus sp.</em>)</p><p>Category: Arachnid | Season: Summer</p><p>Small spider. Jumps. Acutely aware that a camera is pointed at it!</p><p>Weather: 28.6°C, Overcast</p>]]></description>
-      <pubDate>Tue, 03 Mar 2026 10:52:39 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260303-001.html</guid>
-    </item>
-    <item>
       <title>Week 9: Struggle is real!</title>
       <link>https://asquaremeter.com/posts/01032026.html</link>
       <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/static/images/post10.JPG" alt="Week 9: Struggle is real!" style="max-width:100%;"></p><p><em>Slow is smooth, smooth is good</em></p>
@@ -223,20 +237,6 @@
 <p>’Til next week!</p>]]></description>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://asquaremeter.com/posts/01032026.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Spider Wasp</title>
-      <link>https://asquaremeter.com/sightings/20260228-001.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260228-001-a.jpg" alt="Spider Wasp" style="max-width:100%;"></p><p><strong>Spider Wasp</strong> (<em>Pompilidae sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>Found around 8 PM, couldn&apos;t find more details as it was quite dark. Not very confident about the ID. Wasps seem harder to narrow in on species.</p><p>Weather: 28.5°C, Partly cloudy</p>]]></description>
-      <pubDate>Sat, 28 Feb 2026 19:42:53 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260228-001.html</guid>
-    </item>
-    <item>
-      <title>Sighting: Stinging Wasp</title>
-      <link>https://asquaremeter.com/sightings/20260228-002.html</link>
-      <description><![CDATA[<p><img src="https://asquaremeter.com/images/web/20260228-002-a.jpg" alt="Stinging Wasp" style="max-width:100%;"></p><p><strong>Stinging Wasp</strong> (<em>Aculeata sp.</em>)</p><p>Category: Insect | Season: Winter</p><p>I spent one whole hour to narrow down this to a proper taxonomic level. Still not very sure. All AI seem to fail at this one.</p><p>Weather: 28.5°C, Partly cloudy</p>]]></description>
-      <pubDate>Sat, 28 Feb 2026 08:28:34 +0000</pubDate>
-      <guid>https://asquaremeter.com/sightings/20260228-002.html</guid>
     </item>
     <item>
       <title>Week 8: Game of life (and death)</title>
