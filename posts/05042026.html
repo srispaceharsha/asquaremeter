@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 14: Termites - One Square Meter</title>
+    <meta name="description" content="A year-long biodiversity documetation of 1m² area in Gundmi, India.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="One Square Meter RSS Feed" href="/feed.xml">
+    
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-title">One Square Meter</a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="/about.html">About</a>
+                <a href="/highlights.html">Highlights</a>
+                <a href="/posts/">Posts</a>
+                <a href="/browse.html">Browse</a>
+                <a href="/tree.html">Tree</a>
+                <a href="/stats.html">Stats</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main" id="main-content">
+        
+<div class="container">
+    <article class="post-detail">
+        <header class="post-header">
+            <h1>Week 14: Termites</h1>
+            <time datetime="2026-03-29">March 29, 2026</time>
+        </header>
+
+        
+        <figure class="post-cover">
+            <img src="/images/post15.jpg" alt="Week 14: Termites" class="lightbox-trigger">
+        </figure>
+        
+
+        <div class="post-content">
+            <p><em>Everything decays, into something else</em></p>
+<p>Hello!</p>
+<p>Another week went by! Time sure moves so quickly these days. </p>
+<p><a href="https://asquaremeter.com/sightings/20260401-002.html">Termites</a> have taken over the wooden poles I planted to mark the four corners of the plot, as well as the block of wood I've kept inside the plot. They work quite fast. They covered 3 of the poles with mud overnight.</p>
+<p>I spotted something interesting on the leaf of an asthma plant on the edge of the plot. This looks like some sort of egg. It took a while to find anything similar online.</p>
+<p><img alt="Egg" src="SlugCaterpillarMoth_Spatulifimbria.JPG" /></p>
+<p>I saw very similar thing on <a href="https://databases.nbair.res.in/insectpests/Spatulifimbria-castaneiceps.php">this page</a>, and a similar match on <a href="https://www.inaturalist.org/observations/105556358">iNaturalist listing</a>. My complaint is most of these description do not give an idea of the size of the bug, egg or the creature. </p>
+<p>I'll keep a close eye on this thing and see what comes out of it, if at all. </p>
+<p>’Til next week!</p>
+        </div>
+
+        
+
+        <nav class="post-nav">
+            <a href="/posts/">&larr; All Posts</a>
+        </nav>
+    </article>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+    <img class="lightbox-image" src="" alt="">
+</div>
+
+<script>
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('.lightbox-image');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    let isZoomed = false;
+
+    // Make all images in post clickable
+    const postImages = document.querySelectorAll('.post-cover img, .post-content img');
+
+    postImages.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            isZoomed = false;
+            lightboxImg.style.transform = '';
+            lightboxImg.style.maxWidth = '98vw';
+            lightboxImg.style.maxHeight = '98vh';
+        });
+    });
+
+    // Double-tap to zoom
+    let lastTap = 0;
+    lightboxImg.addEventListener('click', (e) => {
+        const now = Date.now();
+        if (now - lastTap < 300) {
+            if (isZoomed) {
+                lightboxImg.style.transform = '';
+                lightboxImg.style.maxWidth = '98vw';
+                lightboxImg.style.maxHeight = '98vh';
+                lightboxImg.style.cursor = 'zoom-in';
+            } else {
+                lightboxImg.style.maxWidth = 'none';
+                lightboxImg.style.maxHeight = 'none';
+                lightboxImg.style.cursor = 'zoom-out';
+            }
+            isZoomed = !isZoomed;
+            e.stopPropagation();
+        }
+        lastTap = now;
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+        isZoomed = false;
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+})();
+</script>
+
+    </main>
+
+    <footer class="site-footer">
+        <img class="footer-illustration footer-illustration-left"
+             src="https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png"
+             alt="" aria-hidden="true">
+        <div class="container">
+            <p>One Square Meter by <a href=https://srispaceharsha.com/>Sri Harsha</a></p>
+            <p><a href="/feed.xml">Subscribe via RSS</a></p>
+        </div>
+        <img class="footer-illustration footer-illustration-right"
+             src="https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png"
+             alt="" aria-hidden="true">
+    </footer>
+    <script>
+    (function() {
+        var images = [
+            'https://images.asquaremeter.com/footer/garden_bugs_1_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_2_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_3_transparent.png',
+            'https://images.asquaremeter.com/footer/garden_bugs_4_transparent.png'
+        ];
+        var leftImg = document.querySelector('.footer-illustration-left');
+        var rightImg = document.querySelector('.footer-illustration-right');
+        if (leftImg && rightImg) {
+            var leftIdx = Math.floor(Math.random() * images.length);
+            var rightIdx = Math.floor(Math.random() * images.length);
+            leftImg.src = images[leftIdx];
+            rightImg.src = images[rightIdx];
+            // Randomly flip each image
+            if (Math.random() > 0.5) leftImg.classList.add('flipped');
+            if (Math.random() > 0.5) rightImg.classList.add('flipped');
+        }
+    })();
+    </script>
+</body>
+</html>
